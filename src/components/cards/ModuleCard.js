@@ -1,8 +1,9 @@
-import { Grid } from "@mui/material";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
-import Typography from "@mui/material/Typography";
+import CheckCircleIcon from "@mui/icons-material/CheckCircle";
+import { Grid } from "@mui/material";
+import { useState } from "react";
 
 export default function ModuleCard({ title, imgSrc, size = 4 }) {
   const [cardClicked, setCardClicked] = useState(false);
@@ -10,20 +11,24 @@ export default function ModuleCard({ title, imgSrc, size = 4 }) {
     <Grid item xs={size}>
       <Card
         sx={{
-          mt: 1,
-          ml: 1,
-          mr: 1,
-          backgroundColor: cardClicked ? "cyan" : "white",
+          mt: 2,
+          ml: 2,
+          mr: 2,
+          backgroundColor: cardClicked ? "#00FFDA" : "white",
+          borderRadius: 4,
         }}
         onClick={() => {
           setCardClicked(!cardClicked);
         }}
       >
-        <CardMedia component="img" image={imgSrc} alt="green iguana" />
+        <CardMedia component="img" image={imgSrc} alt="kit-card" />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
-            {title}
-          </Typography>
+          <Grid container justifyContent={"space-between"}>
+            <Grid item>{title}</Grid>
+            <Grid item>
+              {cardClicked ? <CheckCircleIcon sx={{ color: "white" }} /> : null}
+            </Grid>
+          </Grid>
         </CardContent>
       </Card>
     </Grid>

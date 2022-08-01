@@ -24,7 +24,7 @@ export default function KitCard({ title, imgSrc, size = 4 }) {
         <CardMedia component="img" image={imgSrc} alt="kit-card" />
         <CardContent>
           <Grid container justifyContent={"space-between"}>
-            <Grid item>Robotic Kit</Grid>
+            <Grid item>{title}</Grid>
             <Grid item>
               {cardClicked ? <CheckCircleIcon sx={{ color: "white" }} /> : null}
             </Grid>
