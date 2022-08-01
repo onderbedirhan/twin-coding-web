@@ -1,7 +1,7 @@
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
-import Typography from "@mui/material/Typography";
+import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import { Grid } from "@mui/material";
 import { useState } from "react";
 
@@ -11,25 +11,25 @@ export default function KitCard({ title, imgSrc, size = 4 }) {
     <Grid item xs={size}>
       <Card
         sx={{
-          mt: 1,
-          ml: 1,
-          mr: 1,
-          backgroundColor: cardClicked ? "cyan" : "white",
+          mt: 2,
+          ml: 2,
+          mr: 2,
+          backgroundColor: cardClicked ? "#00FFDA" : "white",
+          borderRadius: 4,
         }}
         onClick={() => {
           setCardClicked(!cardClicked);
         }}
       >
         <CardMedia component="img" image={imgSrc} alt="kit-card" />
-        <Grid container justifyContent="center">
-          <Grid item xs={12}>
-            <CardContent>
-              <Typography gutterBottom variant="h6" component="div">
-                {title}
-              </Typography>
-            </CardContent>
+        <CardContent>
+          <Grid container justifyContent={"space-between"}>
+            <Grid item>Robotic Kit</Grid>
+            <Grid item>
+              {cardClicked ? <CheckCircleIcon sx={{ color: "white" }} /> : null}
+            </Grid>
           </Grid>
-        </Grid>
+        </CardContent>
       </Card>
     </Grid>
   );
