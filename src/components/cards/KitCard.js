@@ -5,7 +5,7 @@ import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import { Grid } from "@mui/material";
 import { useState } from "react";
 
-export default function KitCard({ title, imgSrc, size = 4 }) {
+export default function KitCard({ title, imgSrc, size = 4, checked }) {
   const [cardClicked, setCardClicked] = useState(false);
   return (
     <Grid item xs={size}>

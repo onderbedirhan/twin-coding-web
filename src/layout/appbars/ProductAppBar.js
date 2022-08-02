@@ -35,9 +35,17 @@ export default function ProductAppBar() {
               style={({ isActive }) =>
                 isActive
                   ? {
-                      color: "#00FFDA",
+                      // color: "#00FFDA",
+                      fontWeight: "bold",
+                      fontSize: "25px",
+                      textDecorationColor: "#00FFDA",
+                      color: "#000000",
                     }
-                  : { color: "#545e6f" }
+                  : {
+                      color: "#545e6f",
+                      fontSize: "18px",
+                      textDecoration: "none",
+                    }
               }
               to={routes.KIT_PAGE}
             >
@@ -47,9 +55,17 @@ export default function ProductAppBar() {
               style={({ isActive }) =>
                 isActive
                   ? {
-                      color: "#00FFDA",
+                      // color: "#00FFDA",
+                      fontWeight: "bold",
+                      fontSize: "25px",
+                      textDecorationColor: "#00FFDA",
+                      color: "#000000",
                     }
-                  : { color: "#545e6f" }
+                  : {
+                      color: "#545e6f",
+                      fontSize: "18px",
+                      textDecoration: "none",
+                    }
               }
               to={routes.MODULE_PAGE}
             >
