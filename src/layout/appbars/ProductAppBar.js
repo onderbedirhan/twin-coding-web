@@ -77,7 +77,7 @@ export default function ProductAppBar() {
             size="small"
             aria-label="add"
             style={{ backgroundColor: "#00FFDA", color: "white" }}
-            // onClick={() => navigate("../experimentsPage")}
+            onClick={() => navigate(routes.EXPERIMENT_PAGE)}
           >
             CHOOSE
           </Fab>

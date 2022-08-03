@@ -3,6 +3,7 @@ import React from "react";
 import { routes } from "./routeList";
 import KitPage from "../pages/product/KitPage";
 import ModulePage from "../pages/product/ModulePage";
+import ExperimentPage from "../pages/experiment/ExperimentPage";
 
 export default function AppRouter() {
   return (
@@ -11,6 +12,7 @@ export default function AppRouter() {
         <Route path={routes.HOME_PAGE} element={<KitPage />} />
         <Route path={routes.KIT_PAGE} element={<KitPage />} />
         <Route path={routes.MODULE_PAGE} element={<ModulePage />} />
+        <Route path={routes.EXPERIMENT_PAGE} element={<ExperimentPage />} />
       </Routes>
     </BrowserRouter>
   );

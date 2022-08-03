@@ -3,10 +3,21 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import { Grid } from "@mui/material";
-import { useState } from "react";
+import { useSelector, useDispatch } from "react-redux/es/exports";
+import { moduleToggle } from "../../redux/actions/moduleToggleSelection";
 
-export default function ModuleCard({ title, imgSrc, size = 4, checked }) {
-  const [cardClicked, setCardClicked] = useState(false);
+export default function ModuleCard({
+  title,
+  imgSrc,
+  size = 4,
+  checked,
+  id,
+  toggleSelection,
+}) {
+  // const [cardClicked, setCardClicked] = useState(false);
+  const cardClicked = useSelector((state) => state.moduleSelection.value[id]);
+  const dispatch = useDispatch();
+
   return (
     <Grid item xs={size}>
       <Card
@@ -14,11 +25,15 @@ export default function ModuleCard({ title, imgSrc, size = 4, checked }) {
           mt: 2,
           ml: 2,
           mr: 2,
-          backgroundColor: cardClicked ? "#00FFDA" : "white",
+          backgroundColor: cardClicked.checked ? "#00FFDA" : "white",
           borderRadius: 4,
         }}
         onClick={() => {
-          setCardClicked(!cardClicked);
+          // setCardClicked(!cardClicked);
+          // toggleSelection();
+          // console.log(moduleCardList);
+          console.log(cardClicked.checked);
+          dispatch(moduleToggle(id));
         }}
       >
         <CardMedia component="img" image={imgSrc} alt="kit-card" />
@@ -26,7 +41,9 @@ export default function ModuleCard({ title, imgSrc, size = 4, checked }) {
           <Grid container justifyContent={"space-between"}>
             <Grid item>{title}</Grid>
             <Grid item>
-              {cardClicked ? <CheckCircleIcon sx={{ color: "white" }} /> : null}
+              {cardClicked.checked ? (
+                <CheckCircleIcon sx={{ color: "white" }} />
+              ) : null}
             </Grid>
           </Grid>
         </CardContent>
