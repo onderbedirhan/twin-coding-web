@@ -15,7 +15,7 @@ export default function ModuleCard({
   toggleSelection,
 }) {
   // const [cardClicked, setCardClicked] = useState(false);
-  const cardClicked = useSelector((state) => state.moduleSelection.value[id]);
+  // const cardClicked = useSelector((state) => state.moduleSelection.value[id]);
   const dispatch = useDispatch();
 
   return (
@@ -25,14 +25,10 @@ export default function ModuleCard({
           mt: 2,
           ml: 2,
           mr: 2,
-          backgroundColor: cardClicked.checked ? "#00FFDA" : "white",
+          backgroundColor: checked ? "#00FFDA" : "white",
           borderRadius: 4,
         }}
         onClick={() => {
-          // setCardClicked(!cardClicked);
-          // toggleSelection();
-          // console.log(moduleCardList);
-          console.log(cardClicked.checked);
           dispatch(moduleToggle(id));
         }}
       >
@@ -41,9 +37,7 @@ export default function ModuleCard({
           <Grid container justifyContent={"space-between"}>
             <Grid item>{title}</Grid>
             <Grid item>
-              {cardClicked.checked ? (
-                <CheckCircleIcon sx={{ color: "white" }} />
-              ) : null}
+              {checked ? <CheckCircleIcon sx={{ color: "white" }} /> : null}
             </Grid>
           </Grid>
         </CardContent>

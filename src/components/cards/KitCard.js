@@ -14,8 +14,6 @@ export default function KitCard({
   id,
   toggleSelection,
 }) {
-  // const [cardClicked, setCardClicked] = useState(false);
-  const cardClicked = useSelector((state) => state.toggleSelection.value[id]);
   const dispatch = useDispatch();
 
   return (
@@ -26,14 +24,10 @@ export default function KitCard({
           mt: 2,
           ml: 2,
           mr: 2,
-          backgroundColor: cardClicked.checked ? "#00FFDA" : "white",
+          backgroundColor: checked ? "#00FFDA" : "white",
           borderRadius: 4,
         }}
         onClick={() => {
-          // setCardClicked(!cardClicked);
-          // toggleSelection();
-          // console.log(kitCardList);
-          console.log(cardClicked.checked);
           dispatch(toggle(id));
         }}
       >
@@ -42,9 +36,7 @@ export default function KitCard({
           <Grid container justifyContent={"space-between"}>
             <Grid item>{title}</Grid>
             <Grid item>
-              {cardClicked.checked ? (
-                <CheckCircleIcon sx={{ color: "white" }} />
-              ) : null}
+              {checked ? <CheckCircleIcon sx={{ color: "white" }} /> : null}
             </Grid>
           </Grid>
         </CardContent>
