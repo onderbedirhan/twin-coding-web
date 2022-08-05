@@ -3,7 +3,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import { Grid } from "@mui/material";
-import { toggle } from "../../redux/actions/kitToggleSelection";
+import { kitToggle } from "../../redux/actions/kitSelection";
 import { useSelector, useDispatch } from "react-redux/es/exports";
 
 export default function KitCard({
@@ -28,7 +28,7 @@ export default function KitCard({
           borderRadius: 4,
         }}
         onClick={() => {
-          dispatch(toggle(id));
+          dispatch(kitToggle(id));
         }}
       >
         <CardMedia component="img" image={imgSrc} alt="kit-card" />

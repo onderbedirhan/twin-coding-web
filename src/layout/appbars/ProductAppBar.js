@@ -3,8 +3,12 @@ import { AppBar, Container, Stack, Fab } from "@mui/material";
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import { useNavigate, NavLink } from "react-router-dom";
 import { routes } from "../../router/routeList";
+import { useSelector } from "react-redux/es/exports";
+import { moduleCardList } from "../../components/cards/moduleCardList";
 
 export default function ProductAppBar() {
+  const cardList = useSelector((state) => state.kitSelection.value);
+  const moduleCardList = useSelector((state) => state.moduleSelection.value);
   const navigate = useNavigate();
   return (
     <AppBar color="inherit" position="static">
@@ -77,7 +81,14 @@ export default function ProductAppBar() {
             size="small"
             aria-label="add"
             style={{ backgroundColor: "#00FFDA", color: "white" }}
-            onClick={() => navigate(routes.EXPERIMENT_PAGE)}
+            onClick={() => {
+              navigate(routes.EXPERIMENT_PAGE);
+              localStorage.setItem("kitCardList", JSON.stringify(cardList));
+              localStorage.setItem(
+                "moduleCardList",
+                JSON.stringify(moduleCardList)
+              );
+            }}
           >
             CHOOSE
           </Fab>

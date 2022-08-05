@@ -1,11 +1,11 @@
 import { configureStore } from "@reduxjs/toolkit";
 
-import toggleSelectionReducer from "./actions/kitToggleSelection";
-import moduleSelectionReducer from "./actions/moduleToggleSelection";
+import kitSelectionReducer from "./actions/kitSelection";
+import moduleSelectionReducer from "./actions/moduleSelection";
 
 export const store = configureStore({
   reducer: {
-    toggleSelection: toggleSelectionReducer,
+    kitSelection: kitSelectionReducer,
     moduleSelection: moduleSelectionReducer,
   },
 });

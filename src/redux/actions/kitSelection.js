@@ -5,21 +5,24 @@ const initialState = {
   value: kitCardList,
 };
 
-export const toggleSelectionSlice = createSlice({
-  name: "toggleSelection",
+export const kitSelectionSlice = createSlice({
+  name: "kitSelection",
   initialState,
   reducers: {
-    toggle: (state, action) => {
+    kitToggle: (state, action) => {
       state.value.map((kitCard) => {
         if (kitCard.id === action.payload) {
           kitCard.checked = !kitCard.checked;
         }
       });
     },
+    updateKitCardList: (state, action) => {
+      return { ...state, value: action.payload };
+    },
   },
 });
 
 // Action creators are generated for each case reducer function
-export const { toggle } = toggleSelectionSlice.actions;
+export const { kitToggle, updateKitCardList } = kitSelectionSlice.actions;
 
-export default toggleSelectionSlice.reducer;
+export default kitSelectionSlice.reducer;

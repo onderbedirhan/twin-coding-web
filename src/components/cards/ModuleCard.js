@@ -4,7 +4,7 @@ import CardMedia from "@mui/material/CardMedia";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import { Grid } from "@mui/material";
 import { useSelector, useDispatch } from "react-redux/es/exports";
-import { moduleToggle } from "../../redux/actions/moduleToggleSelection";
+import { moduleToggle } from "../../redux/actions/moduleSelection";
 
 export default function ModuleCard({
   title,

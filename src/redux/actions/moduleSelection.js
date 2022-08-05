@@ -16,10 +16,17 @@ export const moduleSelectionSlice = createSlice({
         }
       });
     },
+    updateModuleCardList: (state, action) => {
+      return {
+        ...state,
+        value: action.payload,
+      };
+    },
   },
 });
 
 // Action creators are generated for each case reducer function
-export const { moduleToggle } = moduleSelectionSlice.actions;
+export const { moduleToggle, updateModuleCardList } =
+  moduleSelectionSlice.actions;
 
 export default moduleSelectionSlice.reducer;
