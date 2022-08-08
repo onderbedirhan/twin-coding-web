@@ -12,7 +12,7 @@ export default function ExperimentCard({
   duration,
   difficulty,
   imgSrc,
-  size = 6,
+  size = 4,
 }) {
   return (
     <Grid item xs={size}>
@@ -24,22 +24,33 @@ export default function ExperimentCard({
           alt="experiment-card"
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
+          {/* <Grid container>{title}</Grid>
+          <Grid container justifyContent="space-between" alignItems="center">
+            <Grid item justifyContent="space-between" alignItems="center">
+              <AccessTimeIcon />
+              {duration}
+            </Grid>
+            <Grid item>
+              <SignalCellularAltIcon />
+              {difficulty}
+            </Grid>
+          </Grid> */}
+          <Typography gutterBottom variant="h6" component="div">
             {title}
           </Typography>
           <Stack
             direction="row"
             justifyContent="space-between"
-            alignItems="flex-start"
+            alignItems="center"
             spacing={2}
           >
-            <Stack direction="row">
+            <Stack direction="row" alignItems="center">
               <AccessTimeIcon />
               <Typography variant="body2" color="text.secondary">
                 {duration}
               </Typography>
             </Stack>
-            <Stack direction="row">
+            <Stack direction="row" alignItems="center">
               <SignalCellularAltIcon />
               <Typography variant="body2" color="text.secondary">
                 {difficulty}
