@@ -7,14 +7,15 @@ import ExperimentPage from "../pages/experiment/ExperimentPage";
 import { useDispatch } from "react-redux/es/exports";
 import { updateKitCardList } from "../redux/actions/kitSelection";
 import { updateModuleCardList } from "../redux/actions/moduleSelection";
+import Modules from "../assets/json/modules_tr.json";
 
 export default function AppRouter() {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    const kitData = localStorage.getItem("kitCardList");
+    const kitData = localStorage.getItem("kits");
     const kitParsedData = JSON.parse(kitData);
-    const moduleData = localStorage.getItem("moduleCardList");
+    const moduleData = localStorage.getItem("modules");
     const moduleParsedData = JSON.parse(moduleData);
     if (kitParsedData != null) {
       dispatch(updateKitCardList(kitParsedData));

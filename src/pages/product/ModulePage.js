@@ -6,16 +6,17 @@ import { useSelector } from "react-redux/es/exports";
 
 export default function ModulePage() {
   const moduleList = useSelector((state) => state.moduleSelection.value);
+  const baseUrl = "https://twinner.blob.core.windows.net/app/modules/";
 
   return (
     <Grid container>
       <ProductAppBar />
       {moduleList.map((moduleCard) => (
         <ModuleCard
-          key={moduleCard.id}
-          title={moduleCard.title}
-          imgSrc={moduleCard.imgSrc}
-          id={moduleCard.id}
+          key={moduleCard.ids[0]}
+          title={moduleCard.name}
+          imgSrc={baseUrl + moduleCard.image}
+          id={moduleCard.ids[0]}
           checked={moduleCard.checked}
         />
       ))}

@@ -6,6 +6,7 @@ import { useSelector } from "react-redux/es/exports";
 
 export default function KitPage() {
   const cardList = useSelector((state) => state.kitSelection.value);
+  const baseUrl = "https://twinner.blob.core.windows.net/app/kits/";
 
   return (
     <Grid container>
@@ -13,8 +14,8 @@ export default function KitPage() {
       {cardList.map((kitCard) => (
         <KitCard
           key={kitCard.id}
-          title={kitCard.title}
-          imgSrc={kitCard.imgSrc}
+          title={kitCard.name}
+          imgSrc={baseUrl + kitCard.image}
           id={kitCard.id}
           checked={kitCard.checked}
         />

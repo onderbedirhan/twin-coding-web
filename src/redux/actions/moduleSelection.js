@@ -1,8 +1,9 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { moduleCardList } from "../../components/cards/moduleCardList";
+import Modules from "../../assets/json/modules_tr.json";
 
 const initialState = {
-  value: moduleCardList,
+  value: Modules,
 };
 
 export const moduleSelectionSlice = createSlice({
@@ -11,7 +12,7 @@ export const moduleSelectionSlice = createSlice({
   reducers: {
     moduleToggle: (state, action) => {
       state.value.map((moduleCard) => {
-        if (moduleCard.id === action.payload) {
+        if (moduleCard.ids[0] === action.payload) {
           moduleCard.checked = !moduleCard.checked;
         }
       });

@@ -1,8 +1,9 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { kitCardList } from "../../components/cards/kitCardList";
+import Kits from "../../assets/json/kits_tr.json";
 
 const initialState = {
-  value: kitCardList,
+  value: Kits,
 };
 
 export const kitSelectionSlice = createSlice({

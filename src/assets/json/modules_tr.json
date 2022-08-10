@@ -1,0 +1,179 @@
+ [
+    {
+      "ids": [
+        1001
+      ],
+      "name": "USB Girişi",
+      "image": "usb.png",
+      "checked": false
+    },
+    {
+      "ids": [
+        2001
+      ],
+      "name": "Bağlantı Kablosu",
+      "image": "baglanti_kablosu.png",
+      "checked": false
+    },
+    {
+      "ids": [
+        2002
+      ],
+      "name": "Dağıtıcı",
+      "image": "dagitici.png",
+      "checked": false
+    },
+    {
+      "ids": [
+        2003
+      ],
+      "name": "Sinyal Sabitleyici",
+      "image": "sinyal_sabitleyici.png",
+      "checked": false
+    },
+    {
+      "ids": [
+        2004
+      ],
+      "name": "Sinyal Dönüştürücü",
+      "image": "sinyal_donusturucu.png",
+      "checked": false
+    },
+    {
+      "ids": [
+        2005
+      ],
+      "name": "Ve / Veya Kapısı ",
+      "image": "ve_veya_kapisi.png",
+      "checked": false
+    },
+    {
+      "ids": [
+        2006
+      ],
+      "name": "Kodlama Modulu",
+      "image": "kodlama_modulu.png",
+      "checked": false
+    },
+    {
+      "ids": [
+        3001
+      ],
+      "name": "Buton",
+      "image": "buton.png",
+      "checked": false
+    },
+    {
+      "ids": [
+        3002
+      ],
+      "name": "Kızaklı Dim",
+      "image": "kizakli_dim.png",
+      "checked": false
+    },
+    {
+      "ids": [
+        3003
+      ],
+      "name": "Uzaktan Kumanda",
+      "image": "uzaktan_kumanda.png",
+      "checked": false
+    },
+    {
+      "ids": [
+        3004
+      ],
+      "name": "Işık Algılayıcı",
+      "image": "isik_algilayici.png",
+      "checked": false
+    },
+    {
+      "ids": [
+        3005
+      ],
+      "name": "Ses Algılayıcı",
+      "image": "ses_algilayici.png",
+      "checked": false
+    },
+    {
+      "ids": [
+        3006
+      ],
+      "name": "Hareket Algılayıcı",
+      "image": "hareket_algilayici.png",
+      "checked": false
+    },
+    {
+      "ids": [
+        3007
+      ],
+      "name": "Mesafe Algılayıcı",
+      "image": "mesafe_algilayici.png",
+      "checked": false
+    },
+    {
+      "ids": [
+        4001
+      ],
+      "name": "Motor",
+      "image": "motor.png",
+      "checked": false
+    },
+    {
+      "ids": [
+        4002
+      ],
+      "name": "Sayaç",
+      "image": "sayac.png",
+      "checked": false
+    },
+    {
+      "ids": [
+        4003
+      ],
+      "name": "Sıralı LED",
+      "image": "sirali_led.png",
+      "checked": false
+    },
+    {
+      "ids": [
+        4004
+      ],
+      "name": "Zil",
+      "image": "zil.png",
+      "checked": false
+    },
+    {
+      "ids": [
+        4005
+      ],
+      "name": "Fan",
+      "image": "fan.png",
+      "checked": false
+    },
+    {
+      "ids": [
+        4006
+      ],
+      "name": "Kablolu LED",
+      "image": "kablolu_led.png",
+      "checked": false
+    },
+    {
+      "ids": [
+        4007
+      ],
+      "name": "Servo Motor",
+      "image": "servo_motor.png",
+      "checked": false
+    },
+    {
+      "ids": [
+        5001
+      ],
+      "name": "Ultrasonik Sensör",
+      "image": "ultrasonic_sensor.png",
+      "checked": false
+    }
+
+  ]
