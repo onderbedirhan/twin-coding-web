@@ -1,0 +1,1887 @@
+ [
+    {
+      "id": "284b0d45-0000-4d11-86e9-1ac4e87df758",
+      "title": "Trafik Işığı",
+      "imageName": "https://twinner.blob.core.windows.net/app/experiments/01.trafik_lambasi/trafik_lambasi_kapak.jpeg",
+      "duration": "10 dk",
+      "difficulty": 1,
+      "langCode": "tr",
+      "requiredIds": [
+        2006
+      ],
+      "media": "https://twinner.blob.core.windows.net/app/experiments/01.trafik_lambasi/trafik_lambasi_02.mp4",
+      "chartImage": "https://twinner.blob.core.windows.net/app/experiments/01.trafik_lambasi/trafik_lambasi_chart.png",
+      "tutorials": [
+        {
+          "title": "Malzemeler",
+          "desc": "1) Kodlama Modülü",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/01.trafik_lambasi/trafik_lambasi_01.jpeg"
+        },
+        {
+          "title": "1.Adım",
+          "desc": "Kodlama modülü güce bağlanır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/01.trafik_lambasi/guc.mp4"
+        },
+        {
+          "title": "2.Adım",
+          "desc": "Örneklerden \"Trafik Işığı\" deneyi açılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/01.trafik_lambasi/trafik_lambasi_deney.jpeg"
+        },
+        {
+          "title": "3.Adım",
+          "desc": "Kod çalıştırılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/01.trafik_lambasi/trafik_lambasi_02.mp4"
+        }
+      ]
+    },
+    {
+      "title": "Disko Topu",
+      "imageName": "https://twinner.blob.core.windows.net/app/experiments/02.disko_topu/disko_topu_kapak.jpeg",
+      "duration": "10 dk",
+      "difficulty": 1,
+      "langCode": "tr",
+      "requiredIds": [
+        2006
+      ],
+      "media": "https://twinner.blob.core.windows.net/app/experiments/02.disko_topu/disko_topu_02.mp4",
+      "chartImage": "https://twinner.blob.core.windows.net/app/experiments/02.disko_topu/disko_topu_chart.png",
+      "tutorials": [
+        {
+          "title": "Malzemeler",
+          "desc": "1) Kodlama Modülü",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/02.disko_topu/disko_topu.jpeg"
+        },
+        {
+          "title": "1.Adım",
+          "desc": "Kodlama modülü güce bağlanır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/02.disko_topu/disko_topu_01.mp4"
+        },
+        {
+          "title": "2.Adım",
+          "desc": "Örneklerden \"Disko Topu\" deneyi açılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/02.disko_topu/disko_topu_deney.jpeg"
+        },
+        {
+          "title": "3.Adım",
+          "desc": "Kod çalıştırılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/02.disko_topu/disko_topu_02.mp4"
+        }
+      ],
+      "id": "e8fe9be4-4124-41af-be05-3f8094f47b96"
+    },
+    {
+      "title": "Araba Sinyali",
+      "imageName": "https://twinner.blob.core.windows.net/app/experiments/03.araba_sinyali/araba_sinyali_kapak.jpeg",
+      "duration": "15 dk",
+      "difficulty": 1,
+      "langCode": "tr",
+      "requiredIds": [
+        2006
+      ],
+      "media": "https://twinner.blob.core.windows.net/app/experiments/03.araba_sinyali/araba_sinyali_02.mp4",
+      "chartImage": "https://twinner.blob.core.windows.net/app/experiments/03.araba_sinyali/araba_sinyali_chart.png",
+      "tutorials": [
+        {
+          "title": "Malzemeler",
+          "desc": "1) Kodlama Modülü\n2) USB Kablosu",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/03.araba_sinyali/araba_sinyali.jpeg"
+        },
+        {
+          "title": "1.Adım",
+          "desc": "Kodlama modülü güce bağlanır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/01.trafik_lambasi/guc.mp4"
+        },
+        {
+          "title": "2.Adım",
+          "desc": "Örneklerden \"Araba Sinyali\" deneyi açılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/03.araba_sinyali/araba_sinyali_deney.jpeg"
+        },
+        {
+          "title": "3.Adım",
+          "desc": "Kod çalıştırılır ve telefon sağa, sola ve öne doğru döndürülür",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/03.araba_sinyali/araba_sinyali_02.mp4"
+        }
+      ],
+      "id": "3966963e-648b-4a16-9522-e91028b5c0b0"
+    },
+    {
+      "title": "Gece Lambası",
+      "imageName": "https://twinner.blob.core.windows.net/app/experiments/04.gece_lambasi/gece_lambasi_kapak.jpeg",
+      "duration": "25 dk",
+      "difficulty": 2,
+      "langCode": "tr",
+      "requiredIds": [
+        2006
+      ],
+      "media": "https://twinner.blob.core.windows.net/app/experiments/04.gece_lambasi/gece_lambasi_06.mp4",
+      "chartImage": "https://twinner.blob.core.windows.net/app/experiments/04.gece_lambasi/gece_lambasi_chart.png",
+      "tutorials": [
+        {
+          "title": "Malzemeler",
+          "desc": "1) Karton Kutu\n2) Kodlama Modülü\n3) Bant\n4) Makas\n5) Şeffaf Kağıt\n6) Sticker",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/04.gece_lambasi/gece_lambasi.jpeg"
+        },
+        {
+          "title": "1.Adım",
+          "desc": "Şeffaf kağıt karton kutu büyüklüğünde kesilir",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/04.gece_lambasi/gece_lambasi_01.mp4"
+        },
+        {
+          "title": "2.Adım",
+          "desc": "Şeffaf kağıt karton kutuya bantlanır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/04.gece_lambasi/gece_lambasi_02.mp4"
+        },
+        {
+          "title": "3.Adım",
+          "desc": "Stickerlar kağıt üzerine yapıştırılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/04.gece_lambasi/gece_lambasi_03.mp4"
+        },
+        {
+          "title": "4.Adım",
+          "desc": "Kodlama modülü güce bağlanır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/01.trafik_lambasi/guc.mp4"
+        },
+        {
+          "title": "5.Adım",
+          "desc": "Kodlama modülü kutunun içine konur",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/04.gece_lambasi/gece_lambasi_05.mp4"
+        },
+        {
+          "title": "6.Adım",
+          "desc": "Örneklerden \"Gece Lambası\" deneyi açılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/04.gece_lambasi/gece_lambasi_deney.jpeg"
+        },
+        {
+          "title": "7.Adım",
+          "desc": "Kodumuz çalıştırılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/04.gece_lambasi/gece_lambasi_06.mp4"
+        }
+      ],
+      "id": "d6c4eb67-44e2-457e-8db5-7bd703fdb300"
+    },
+    {
+      "title": "Radar",
+      "imageName": "https://twinner.blob.core.windows.net/app/experiments/05.radar/radar_kapak.jpeg",
+      "duration": "10 dk",
+      "difficulty": 1,
+      "langCode": "tr",
+      "requiredIds": [
+        2006,
+        5001
+      ],
+      "media": "https://twinner.blob.core.windows.net/app/experiments/05.radar/radar_02.mp4",
+      "chartImage": "https://twinner.blob.core.windows.net/app/experiments/05.radar/radar_chart.png",
+      "tutorials": [
+        {
+          "title": "Malzemeler",
+          "desc": "1) Kodlama Modülü\n2) Ultrasonik Sensör",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/05.radar/radar.jpeg"
+        },
+        {
+          "title": "1.Adım",
+          "desc": "Kodlama modülü güce takılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/01.trafik_lambasi/guc.mp4"
+        },
+        {
+          "title": "2.Adım",
+          "desc": "Örneklerden \"Radar\" deneyi açılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/05.radar/radar_deney.jpeg"
+        },
+        {
+          "title": "3.Adım",
+          "desc": "Kodumuz çalıştırılır ve elimiz sensöre doğru yaklaştırılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/05.radar/radar_02.mp4"
+        }
+      ],
+      "id": "da8bd9d7-119d-41c2-b0e0-fa31c2e9f9b8"
+    },
+    {
+      "title": "Doğum Günü Kartı",
+      "imageName": "https://twinner.blob.core.windows.net/app/experiments/06.dogumgunu/dogumgunu_kapak.jpeg",
+      "duration": "30 dk",
+      "difficulty": 2,
+      "langCode": "tr",
+      "requiredIds": [
+        2006,
+        4004
+      ],
+      "media": "https://twinner.blob.core.windows.net/app/experiments/06.dogumgunu/dogumgunu_08.mp4",
+      "chartImage": "https://twinner.blob.core.windows.net/app/experiments/06.dogumgunu/dogum_gunu_chart.png",
+      "tutorials": [
+        {
+          "title": "Malzemeler",
+          "desc": "1) Renkli Toplar\n2) Patafix\n3) Süs Malzemeleri\n4) Sim\n5) A4 Kağıt\n6) Pastel Boya\n7) Kodlama Modülü\n8) Prit\n9) Zil Modülü\n10) Çift Taraflı Bant",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/06.dogumgunu/dogumgunu.jpeg"
+        },
+        {
+          "title": "1.Adım",
+          "desc": "A4 kağıt ortadan ikiye katlanır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/06.dogumgunu/dogumgunu_01.mp4"
+        },
+        {
+          "title": "2.Adım",
+          "desc": "Katlanan kağıdın bir yüzüne sim, renkli toplar ve süs malzemeleri yapıştırılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/06.dogumgunu/dogumgunu_02.mp4"
+        },
+        {
+          "title": "3.Adım",
+          "desc": "Kağıdın dış yüzüne pastel boyalar ile \"İyi ki Doğdun\" yazılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/06.dogumgunu/dogumgunu_03.mp4"
+        },
+        {
+          "title": "4.Adım",
+          "desc": "Kodlama modülü güce bağlanır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/01.trafik_lambasi/guc.mp4"
+        },
+        {
+          "title": "5.Adım",
+          "desc": "Zil modülü kodlama modülündeki d6 pinine takılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/06.dogumgunu/dogumgunu_05.mp4"
+        },
+        {
+          "title": "6.Adım",
+          "desc": "Kodlama modülü çift taraflı bant ile kağıda yapıştırılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/06.dogumgunu/dogumgunu_06.mp4"
+        },
+        {
+          "title": "7.Adım",
+          "desc": "Örneklerden \"Doğum Günü Kartı\" deneyi açılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/06.dogumgunu/dogumgunu_deney.jpeg"
+        },
+        {
+          "title": "8.Adım",
+          "desc": "Kodumuz çalıştırılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/06.dogumgunu/dogumgunu_08.mp4"
+        }
+      ],
+      "id": "ed2391c6-4d03-4738-a224-290a06064772"
+    },
+    {
+      "title": "Müzik Kutusu",
+      "imageName": "https://twinner.blob.core.windows.net/app/experiments/08.muzik_kutusu/muzik_kutusu_kapak.jpeg",
+      "duration": "15 dk",
+      "difficulty": 1,
+      "langCode": "tr",
+      "requiredIds": [
+        2006,
+        4004
+      ],
+      "media": "https://twinner.blob.core.windows.net/app/experiments/08.muzik_kutusu/muzik_kutusu_06.mp4",
+      "chartImage": "https://twinner.blob.core.windows.net/app/experiments/08.muzik_kutusu/muzik_kutusu_chart.png",
+      "tutorials": [
+        {
+          "title": "Malzemeler",
+          "desc": "1) Karton Kutu\n2) Renkli El İşi Kağıdı\n3) Kodlama Modülü\n4) Renkli Toplar\n5) Zil Modülü",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/08.muzik_kutusu/muzik_kutusu.jpeg"
+        },
+        {
+          "title": "1.Adım",
+          "desc": "El işi kağıdı karton kutu ölçülerinde kesilir",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/08.muzik_kutusu/muzik_kutusu_01.mp4"
+        },
+        {
+          "title": "2.Adım",
+          "desc": "El işi kağıdı karton kutuya yapıştırılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/08.muzik_kutusu/muzik_kutusu_02.mp4"
+        },
+        {
+          "title": "3.Adım",
+          "desc": "Renkli toplar kutu içine dökülür",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/08.muzik_kutusu/muzik_kutusu_03.mp4"
+        },
+        {
+          "title": "4.Adım",
+          "desc": "Kodlama modülü güce bağlanır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/01.trafik_lambasi/guc.mp4"
+        },
+        {
+          "title": "5.Adım",
+          "desc": "Zil modülü kodlama modülündeki d6 pinine takılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/08.muzik_kutusu/muzik_kutusu_05.mp4"
+        },
+        {
+          "title": "6.Adım",
+          "desc": "Kodlama modülü kutu içine konur",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/08.muzik_kutusu/muzik_kutusu_06.mp4"
+        },
+        {
+          "title": "7.Adım",
+          "desc": "Örneklerden \"Müzik Kutusu\" deneyi açılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/08.muzik_kutusu/muzik_kutusu_deney.jpeg"
+        },
+        {
+          "title": "8.Adım",
+          "desc": "Kodumuz çalıştırılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/08.muzik_kutusu/muzik_kutusu_06.mp4"
+        }
+      ],
+      "id": "cbd07c6e-9897-4f9b-b0b6-d19a7c53a42d"
+    },
+    {
+      "title": "Robot Solucan",
+      "imageName": "https://twinner.blob.core.windows.net/app/experiments/09.robot_solucan/robot_solucan_kapak.jpeg",
+      "duration": "30 dk",
+      "difficulty": 2,
+      "langCode": "tr",
+      "requiredIds": [
+        2006,
+        4007
+      ],
+      "media": "https://twinner.blob.core.windows.net/app/experiments/09.robot_solucan/robot_solucan_09.mp4",
+      "chartImage": "https://twinner.blob.core.windows.net/app/experiments/09.robot_solucan/robot_solucan_chart.png",
+      "tutorials": [
+        {
+          "title": "Malzemeler",
+          "desc": "1) Karton\n2) Renkli El İşi Kağıdı\n3) Ataş\n4) Çift Taraflı Bant\n5) Oyuncak Göz\n6) Kodlama Modülü\n7) Servo Motor ",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/09.robot_solucan/robot_solucan.jpeg"
+        },
+        {
+          "title": "1.Adım",
+          "desc": "Karton kenarlarından ve ortasından katlanır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/09.robot_solucan/robot_solucan_01.mp4"
+        },
+        {
+          "title": "2.Adım",
+          "desc": "El işi kağıdı hazırlanan kartona yapıştırılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/09.robot_solucan/robot_solucan_02.mp4"
+        },
+        {
+          "title": "3.Adım",
+          "desc": "Oyuncak gözler el işi kağıdının üzerine yapıştırılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/09.robot_solucan/robot_solucan_03.mp4"
+        },
+        {
+          "title": "4.Adım",
+          "desc": "Servo motorun ucuna ataş geçirilir",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/09.robot_solucan/robot_solucan_04.mp4"
+        },
+        {
+          "title": "5.Adım",
+          "desc": "Servo motor kartonun iç kısmına yapıştırılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/09.robot_solucan/robot_solucan_05.mp4"
+        },
+        {
+          "title": "6.Adım",
+          "desc": "Ataşın diğer ucu karton delinerek geçirilir ve ataş uçlarından sıkıştırılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/09.robot_solucan/robot_solucan_06.mp4"
+        },
+        {
+          "title": "7.Adım",
+          "desc": "Kodlama modülü güce bağlanır ve servo d6 pinine takılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/01.trafik_lambasi/guc.mp4"
+        },
+        {
+          "title": "8.Adım",
+          "desc": "Örneklerden \"Robot Solucan\" deneyi açılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/09.robot_solucan/robot_solucan_deney.jpeg"
+        },
+        {
+          "title": "9.Adım",
+          "desc": "Kodumuz çalıştırılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/09.robot_solucan/robot_solucan_09.mp4"
+        }
+      ],
+      "id": "532524f8-cae7-4b9f-b732-04de96098f9d"
+    },
+    {
+      "title": "Doğruluk Mu Cesaret Mi?",
+      "imageName": "https://twinner.blob.core.windows.net/app/experiments/13.dogruluk_mu/dogruluk_kapak.jpeg",
+      "duration": "20 dk",
+      "difficulty": 2,
+      "langCode": "tr",
+      "requiredIds": [
+        2001,
+        2006,
+        4001
+      ],
+      "media": "https://twinner.blob.core.windows.net/app/experiments/13.dogruluk_mu/dogruluk_07.mp4",
+      "chartImage": "https://twinner.blob.core.windows.net/app/experiments/13.dogruluk_mu/dogruluk_chart.png",
+      "tutorials": [
+        {
+          "title": "Malzemeler",
+          "desc": "1) Renkli Karton\n2) Kodlama Modülü\n3) Bağlantı Kablosu\n4) Dc Motor\n5) Renkli Kalem\n6) Beyaz Karton",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/13.dogruluk_mu/dogruluk.jpeg"
+        },
+        {
+          "title": "1.Adım",
+          "desc": "Renkli kartonun ortasına beyaz karton konur ve renkli kartona bir ok işareti çizilir",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/13.dogruluk_mu/dogruluk_01.mp4"
+        },
+        {
+          "title": "2.Adım",
+          "desc": "Beyaz karton üzerine sırasıyla doğruluk ve cesaret yazılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/13.dogruluk_mu/dogruluk_02.mp4"
+        },
+        {
+          "title": "3.Adım",
+          "desc": "Beyaz karton dc motora takılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/13.dogruluk_mu/dogruluk_03.mp4"
+        },
+        {
+          "title": "4.Adım",
+          "desc": "Kodlama modülü güce takılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/01.trafik_lambasi/guc.mp4"
+        },
+        {
+          "title": "5.Adım",
+          "desc": "Dc motor bağlantı kablosu yardımıyla kodlama modülüne takılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/13.dogruluk_mu/dogruluk_05.mp4"
+        },
+        {
+          "title": "6.Adım",
+          "desc": "Örneklerden \"Doğruluk Mu Cesaret Mi?\" deneyi açılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/13.dogruluk_mu/dogruluk_deney.jpeg"
+        },
+        {
+          "title": "7.Adım",
+          "desc": "Kodumuz çalıştırılır ve telefon sallanır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/13.dogruluk_mu/dogruluk_07.mp4"
+        }
+      ],
+      "id": "ddb009cb-70f0-4f8b-ad6b-5bf4ce48498c"
+    },
+    {
+      "title": "Film Makinesi",
+      "imageName": "https://twinner.blob.core.windows.net/app/experiments/14.film_makinesi/film_makinesi_kapak.jpeg",
+      "duration": "30 dk",
+      "difficulty": 2,
+      "langCode": "tr",
+      "requiredIds": [
+        2001,
+        2006,
+        4001
+      ],
+      "media": "https://twinner.blob.core.windows.net/app/experiments/14.film_makinesi/film_makinesi_08.mp4",
+      "chartImage": "https://twinner.blob.core.windows.net/app/experiments/14.film_makinesi/film_makinesi_chart.png",
+      "tutorials": [
+        {
+          "title": "Malzemeler",
+          "desc": "1) Kodlama Modülü\n2) Bağlantı Kablosu\n3) Dc Motor\n4) Keçeli Kalem\n5) Patafix\n6) Karton\n7) Pinpon Topu",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/14.film_makinesi/film_makinesi.jpeg"
+        },
+        {
+          "title": "1.Adım",
+          "desc": "Pinpon toplarına yüz şekilleri çizilir",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/14.film_makinesi/film_makinesi_01.mp4"
+        },
+        {
+          "title": "2.Adım",
+          "desc": "Karton daire şeklinde kesilir",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/14.film_makinesi/film_makinesi_02.mp4"
+        },
+        {
+          "title": "3.Adım",
+          "desc": "Pinpon topları eşit aralıklarla kartona yapıştırılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/14.film_makinesi/film_makinesi_03.mp4"
+        },
+        {
+          "title": "4.Adım",
+          "desc": "Dc motor kartonun tam ortasına takılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/14.film_makinesi/film_makinesi_04.mp4"
+        },
+        {
+          "title": "5.Adım",
+          "desc": "Kodlama modülü güce takılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/01.trafik_lambasi/guc.mp4"
+        },
+        {
+          "title": "6.Adım",
+          "desc": "Dc motor bağlantı kablosu yardımıyla kodlama modülüne takılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/14.film_makinesi/film_makinesi_06.mp4"
+        },
+        {
+          "title": "7.Adım",
+          "desc": "Örneklerden \"Film Makinesi\" deneyi çalıştırılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/14.film_makinesi/film_makinesi_deney.jpeg"
+        },
+        {
+          "title": "8.Adım",
+          "desc": "Kodumuz çalıştırılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/14.film_makinesi/film_makinesi_08.mp4"
+        }
+      ],
+      "id": "5226a1bc-90df-4496-b2a3-6729935063ba"
+    },
+    {
+      "title": "Uzaktan Kumandalı Araba",
+      "imageName": "https://twinner.blob.core.windows.net/app/experiments/15.uzaktan_kumanda/uzaktan_kumanda_kapak.jpeg",
+      "duration": "30 dk",
+      "difficulty": 3,
+      "langCode": "tr",
+      "requiredIds": [
+        2001,
+        2006,
+        4001
+      ],
+      "media": "https://twinner.blob.core.windows.net/app/experiments/15.uzaktan_kumanda/uzaktan_kumanda_13.mp4",
+      "chartImage": "https://twinner.blob.core.windows.net/app/experiments/15.uzaktan_kumanda/uzaktan_kumanda_chart.png",
+      "tutorials": [
+        {
+          "title": "Malzemeler",
+          "desc": "1) Kodlama Modülü\n2) Dc Motor\n3) Bağlantı Kablosu\n4) Blok Tablası\n5) Oynar Teker\n6) Batarya\n7) Güç Kablosu\n8) Tekerlek",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/15.uzaktan_kumanda/uzaktan_kumanda_araba.jpeg"
+        },
+        {
+          "title": "1.Adım",
+          "desc": "Dc motorların ucuna gri parçalar takılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/15.uzaktan_kumanda/uzaktan_kumanda_1.mp4"
+        },
+        {
+          "title": "2.Adım",
+          "desc": "Tekerler dc motora takılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/15.uzaktan_kumanda/uzaktan_kumanda_2.mp4"
+        },
+        {
+          "title": "3.Adım",
+          "desc": "Dc motorlar blok tablanın üzerine takılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/15.uzaktan_kumanda/uzaktan_kumanda_3.mp4"
+        },
+        {
+          "title": "4.Adım",
+          "desc": "Kodlama modülü tablanın ucuna takılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/15.uzaktan_kumanda/uzaktan_kumanda_4.mp4"
+        },
+        {
+          "title": "5.Adım",
+          "desc": "Bağlantı kabloları Dc motor ve kodlama modülüne takılır ",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/15.uzaktan_kumanda/uzaktan_kumanda_5.mp4"
+        },
+        {
+          "title": "6.Adım",
+          "desc": "Güç kablosu batarya ve kodlama modülüne takılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/15.uzaktan_kumanda/uzaktan_kumanda_6.mp4"
+        },
+        {
+          "title": "7.Adım",
+          "desc": "Oynar tekerin parçaları kutunun içinden çıkartılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/15.uzaktan_kumanda/uzaktan_kumanda_7.mp4"
+        },
+        {
+          "title": "8.Adım",
+          "desc": "Oynar tekerin parçaları birleştirilir",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/15.uzaktan_kumanda/uzaktan_kumanda_8.mp4"
+        },
+        {
+          "title": "9.Adım",
+          "desc": "Uzun siyah çubuk blok oyuncağa geçirilir",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/15.uzaktan_kumanda/uzaktan_kumanda_9.mp4"
+        },
+        {
+          "title": "10.Adım",
+          "desc": "Oynar teker beyaz blok parçadan geçirilir ve ucuna sarı parça takılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/15.uzaktan_kumanda/uzaktan_kumanda_10.mp4"
+        },
+        {
+          "title": "11.Adım",
+          "desc": "Oynar teker tablanın altına takılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/15.uzaktan_kumanda/uzaktan_kumanda_11.mp4"
+        },
+        {
+          "title": "12.Adım",
+          "desc": "Örneklerden \"Uzaktan Kumandalı Araba\" deneyi açılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/15.uzaktan_kumanda/uzaktan_kumanda_deney.jpeg"
+        },
+        {
+          "title": "13.Adım",
+          "desc": "Kodumuz çalıştırılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/15.uzaktan_kumanda/uzaktan_kumanda_13.mp4"
+        }
+      ],
+      "id": "c6295a27-1a2e-4de9-bed2-ece22a51f31a"
+    },
+    {
+      "title": "Kar Küresi",
+      "imageName": "https://twinner.blob.core.windows.net/app/experiments/16.kar_kuresi/kar_kuresi_kapak.jpeg",
+      "duration": "30 dk",
+      "difficulty": 2,
+      "langCode": "tr",
+      "requiredIds": [
+        4005,
+        2006
+      ],
+      "media": "https://twinner.blob.core.windows.net/app/experiments/16.kar_kuresi/kar_kuresi_07.mp4",
+      "chartImage": "https://twinner.blob.core.windows.net/app/experiments/16.kar_kuresi/kar_kuresi_chart.png",
+      "tutorials": [
+        {
+          "title": "Malzemeler",
+          "desc": "1) Tül parçası\n2) Oyuncak\n3) Cam Kavanoz\n4) Patafix\n5) Renkli Toplar\n6) Kodlama Modülü\n7) Fan Modülü",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/16.kar_kuresi/kar_kuresi.jpeg"
+        },
+        {
+          "title": "1.Adım",
+          "desc": "Cam kavanoza renkli toplar dökülür",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/16.kar_kuresi/kar_kuresi_01.mp4"
+        },
+        {
+          "title": "2.Adım",
+          "desc": "Oyuncak patafix yarımıyla tül ve fanın üzerine yapıştırılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/16.kar_kuresi/kar_kuresi_02.mp4"
+        },
+        {
+          "title": "3.Adım",
+          "desc": "Oyuncak cam kavanozun üzerine geçirilir ve lastik yardımıyla sabitlenir",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/16.kar_kuresi/kar_kuresi_03.mp4"
+        },
+        {
+          "title": "4.Adım",
+          "desc": "Kodlama modülü güce takılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/01.trafik_lambasi/guc.mp4"
+        },
+        {
+          "title": "5.Adım",
+          "desc": "Fan modülü kodlama modülüne takılır ve fan kodlama modülündeki ledlerin üzerine konur",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/16.kar_kuresi/kar_kuresi_05.mp4"
+        },
+        {
+          "title": "6.Adım",
+          "desc": "Örneklerden \"Kar Küresi\" deneyi çalıştırılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/16.kar_kuresi/kar_kuresi_deney.jpeg"
+        },
+        {
+          "title": "7.Adım",
+          "desc": "Kodumuz çalıştırılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/16.kar_kuresi/kar_kuresi_07.mp4"
+        }
+      ],
+      "id": "b7cfbd2f-9b20-4650-b2c1-5b8ffe4dbb0b"
+    },
+    {
+      "title": "Muz Piyano",
+      "imageName": "https://twinner.blob.core.windows.net/app/experiments/11.muz_piyano/muz_piyano_kapak.jpeg",
+      "duration": "30 dk",
+      "difficulty": 2,
+      "langCode": "tr",
+      "requiredIds": [
+        4004,
+        2006
+      ],
+      "media": "https://twinner.blob.core.windows.net/app/experiments/11.muz_piyano/muz_piyano_05.mp4",
+      "chartImage": "https://twinner.blob.core.windows.net/app/experiments/16.kar_kuresi/kar_kuresi_chart.png",
+      "tutorials": [
+        {
+          "title": "Malzemeler",
+          "desc": "1) Muz\n2) Kodlama Modülü\n3) Jumper Kablo",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/11.muz_piyano/muz_piyano.jpeg"
+        },
+        {
+          "title": "1.Adım",
+          "desc": "Jumper kablolar GND, D8, D9, D10, D12 girişlerine takılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/11.muz_piyano/jumper_01.mp4"
+        },
+        {
+          "title": "2.Adım",
+          "desc": "Jumper kabloların bir ucu muzlara batırılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/11.muz_piyano/muz_piyano_02.mp4"
+        },
+        {
+          "title": "3.Adım",
+          "desc": "Kodlama modülü güce bağlanır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/11.muz_piyano/muz_piyano_03.mp4"
+        },
+        {
+          "title": "4.Adım",
+          "desc": "D6 girişine zil modülü takılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/11.muz_piyano/muz_piyano_04.mp4"
+        },
+        {
+          "title": "5.Adım",
+          "desc": "Örneklerden \"Piyano\" deneyi açılır ve kod çalıştırılır. GND Kablosunun takılı olduğu muza basılı tutarak diğer muzlara basılır ",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/11.muz_piyano/muz_piyano_05.mp4"
+        }
+      ],
+      "id": "a89b5f62-15cb-445a-b8cf-d3c5015e29f3"
+    },
+    {
+      "title": "Elektro Gitar",
+      "imageName": "https://twinner.blob.core.windows.net/app/experiments/07.elektro_gitar/elektro_gitar_kapak.jpeg",
+      "duration": "30 dk",
+      "difficulty": 2,
+      "langCode": "tr",
+      "requiredIds": [
+        4004,
+        2006
+      ],
+      "media": "https://twinner.blob.core.windows.net/app/experiments/07.elektro_gitar/elektro_06.mp4",
+      "chartImage": "https://twinner.blob.core.windows.net/app/experiments/16.kar_kuresi/kar_kuresi_chart.png",
+      "tutorials": [
+        {
+          "title": "Malzemeler",
+          "desc": "1) Gitar Resmi\n2) Karton\n3) Bant\n4) Kodlama Modülü\n5) Jumper Kablo\n6) Makas\n7) Zil",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/07.elektro_gitar/elektro_gitar.jpeg"
+        },
+        {
+          "title": "1.Adım",
+          "desc": "Jumper kablolar GND, D8, D9, D10, D12 girişlerine takılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/11.muz_piyano/jumper_01.mp4"
+        },
+        {
+          "title": "2.Adım",
+          "desc": "Gitar resmi kenarlarından kesilir",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/07.elektro_gitar/elektro_02.mp4"
+        },
+        {
+          "title": "3.Adım",
+          "desc": "Kesilen resim kartona yapıştırılır ve karton kenarlarından kesilir",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/07.elektro_gitar/elektro_03.mp4"
+        },
+        {
+          "title": "4.Adım",
+          "desc": "Jumper kablolar gitarın üzerine yapıştırılır. GND'ye takılan kablo baş kısma yapıştırılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/07.elektro_gitar/elektro_04.mp4"
+        },
+        {
+          "title": "5.Adım",
+          "desc": "D6 girişine zil modülü takılır ve kodlama modülü güce bağlanır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/07.elektro_gitar/elektro_05.mp4"
+        },
+        {
+          "title": "6.Adım",
+          "desc": "Örneklerden \"Piyano\" deneyi açılır ve kabloların ucuna basılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/07.elektro_gitar/elektro_06.mp4"
+        }
+      ],
+      "id": "7a44c6be-8661-40e5-9283-54d3fba81abc"
+    },
+    {
+      "title": "Renk Paleti",
+      "imageName": "https://twinner.blob.core.windows.net/app/experiments/12.renk_paleti/renk_paleti_kapak.jpeg",
+      "duration": "30 dk",
+      "difficulty": 2,
+      "langCode": "tr",
+      "requiredIds": [
+        2006
+      ],
+      "media": "https://twinner.blob.core.windows.net/app/experiments/12.renk_paleti/renk_paleti_06.mp4",
+      "chartImage": "https://twinner.blob.core.windows.net/app/experiments/14.film_makinesi/film_makinesi_chart.png",
+      "tutorials": [
+        {
+          "title": "Malzemeler",
+          "desc": "1) Renk Paleti Resmi\n2) Karton\n3) Bant\n4) Kodlama Modülü\n5) Jumper Kablo\n6) Makas",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/12.renk_paleti/renk_paleti.jpeg"
+        },
+        {
+          "title": "1.Adım",
+          "desc": "Jumper kablolar GND, D8, D9, D10, D12 girişlerine takılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/11.muz_piyano/jumper_01.mp4"
+        },
+        {
+          "title": "2.Adım",
+          "desc": "Renk paleti resmi kenarlarından kesilir",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/12.renk_paleti/renk_paleti_02.mp4"
+        },
+        {
+          "title": "3.Adım",
+          "desc": "Kesilen resim kartona yapıştırılır ve karton kenarlarından kesilir",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/12.renk_paleti/renk_paleti_03.mp4"
+        },
+        {
+          "title": "4.Adım",
+          "desc": "Jumper kablolar paletin üzerine yapıştırılır. GND'ye takılan kablo baş kısma yapıştırılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/12.renk_paleti/renk_paleti_04.mp4"
+        },
+        {
+          "title": "5.Adım",
+          "desc": "Kodlama modülü güce bağlanır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/12.renk_paleti/renk_paleti_05.mp4"
+        },
+        {
+          "title": "6.Adım",
+          "desc": "Örneklerden \"Renk Paleti\" deneyi açılır ve kabloların ucuna basılır",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/12.renk_paleti/renk_paleti_06.mp4"
+        }
+      ],
+      "id": "928527c1-2444-4752-a16e-13af7fe21a80"
+    },
+    {
+      "title": "El Mikseri",
+      "imageName": "https://twinner.blob.core.windows.net/app/experiments/19.el_mikseri/el_mikseri_kapak_fotosu.png",
+      "duration": "5 dk",
+      "difficulty": 1,
+      "langCode": "tr",
+      "requiredIds": [
+        1001,
+        3002,
+        4005
+      ],
+      "media": "https://twinner.blob.core.windows.net/app/experiments/19.el_mikseri/el_mikseri_adim_3.mp4",
+      "chartImage": "https://twinner.blob.core.windows.net/app/experiments/13.dogruluk_mu/dogruluk_chart.png",
+      "tutorials": [
+        {
+          "title": "Malzemeler",
+          "desc": "1) Pipet\n2) Yuvarlak Sünger\n3) Çift Taraflı Bant\n4) Fan\n5) Güç\n6) Kızaklı Dim",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/19.el_mikseri/el_mikseri_malzeme_fotosu.jpg"
+        },
+        {
+          "title": "1.Adım",
+          "desc": "Çift taraflı bant fanın logosuz yüzeyinin ortasına yapıştırılır ve kağıdı soyulur. Sünger, bandın üzerine yerleştirilir. Süngerin ortasındaki deliğe pipet geçirilir ve ittirerek iyice yerleştirilir.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/19.el_mikseri/el_mikseri_adim_1.mp4"
+        },
+        {
+          "title": "2.Adım",
+          "desc": "Boyalar baradğın içine sıkılır.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/19.el_mikseri/el_mikseri_adim_2.mp4"
+        },
+        {
+          "title": "3.Adım",
+          "desc": "Güç modülüne fan eklenir, anahtar “on” konumuna getirilir.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/19.el_mikseri/el_mikseri_adim_3.mp4"
+        }
+      ],
+      "id": "82e18e3b-daa4-4a41-b11e-7194a4a4c264"
+    },
+    {
+      "title": "Konfeti Yağmuru",
+      "imageName": "https://twinner.blob.core.windows.net/app/experiments/21.konfeti_yagmuru/konfeti_yagmuru_kapak_fotosu.png",
+      "duration": "15 dk",
+      "difficulty": 2,
+      "langCode": "tr",
+      "requiredIds": [
+        1001,
+        4005
+      ],
+      "media": "https://twinner.blob.core.windows.net/app/experiments/21.konfeti_yagmuru/konfeti_yagmuru_adim_6.mp4",
+      "chartImage": "https://twinner.blob.core.windows.net/app/experiments/08.muzik_kutusu/muzik_kutusu_chart.png",
+      "tutorials": [
+        {
+          "title": "Malzemeler",
+          "desc": "1) Tasarımlı Kağıt\n2) Güç\n3) Fan\n4) Çift Taraflı Bant No.2\n5) Yuvarlak Sünger\n6)Krepon Kağıdı\n7) Halka Sünger\n8)Sünger Fan Başlığı\n9)Tül Kumaş",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/21.konfeti_yagmuru/konfeti_yagmuru_malzeme_fotosu.jpg"
+        },
+        {
+          "title": "1.Adım",
+          "desc": "Tül fanın logolu yüzeyine yerleştirilir ve sünger fan başlığı parçası üzerine oturtulur.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/21.konfeti_yagmuru/konfeti_yagmuru_adim_1.mp4"
+        },
+        {
+          "title": "2.Adım",
+          "desc": "Tasarımlı kağıdın üzerindeki beyaz bant alanına 2 numaralı (5x1,5cm) çift taraflı bant yapıştırılır ve kağıdı soyulur, kartonun iki ucu birleştirilerek silindir oluşturulur.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/21.konfeti_yagmuru/konfeti_yagmuru_adim_2.mp4"
+        },
+        {
+          "title": "3.Adım",
+          "desc": "Karton sünger fan başlığının üzerine oturtulur. Fanın logolu yüzeyinin yukarı baktığından emin olunur.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/21.konfeti_yagmuru/konfeti_yagmuru_adim_3.mp4"
+        },
+        {
+          "title": "4.Adım",
+          "desc": "Krepon kağıdı ya da tek katlı peçete gibi ince bir kağıt kullanılarak konfetiler oluşturulur. Ne kadar renkli, o kadar ilgi çekici! Hazırladığın konfeti parçaları kartonun içine doldurulur.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/21.konfeti_yagmuru/konfeti_yagmuru_adim_4.mp4"
+        },
+        {
+          "title": "5.Adım",
+          "desc": "Fanın altına silindir sünger parçası yerleştirilir.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/21.konfeti_yagmuru/konfeti_yagmuru_adim_5.mp4"
+        },
+        {
+          "title": "6.Adım",
+          "desc": "Konfeti yağmuruna hazır ol! Güç modülüne fan eklenir. Aanahtar “on” konumuna getirilir. Ve parti başlar!",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/21.konfeti_yagmuru/konfeti_yagmuru_adim_6.mp4"
+        }
+      ],
+      "id": "ffafba61-903b-4218-82db-d137cd071d7d"
+    },
+    {
+      "title": "Elektrik Süpürgesi",
+      "imageName": "https://twinner.blob.core.windows.net/app/experiments/18.el_supurgesi/el_supurgesi_kapak_fotosu.png",
+      "duration": "20 dk",
+      "difficulty": 3,
+      "langCode": "tr",
+      "requiredIds": [
+        1001,
+        3002,
+        4005
+      ],
+      "media": "https://twinner.blob.core.windows.net/app/experiments/18.el_supurgesi/el_supurgesi_adim_5.mp4",
+      "chartImage": "https://twinner.blob.core.windows.net/app/experiments/14.film_makinesi/film_makinesi_chart.png",
+      "tutorials": [
+        {
+          "title": "Malzemeler",
+          "desc": "1) Süpürge Kartonu\n2) Halka Sünger\n3) Kızaklı Dim\n4) Fan\n5) Tül Kumaş\n6) Sünger Fan Başlığı\n7) Çift Taraflı Bant No.2\n8) Güç",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/18.el_supurgesi/el_supurgesi_malzeme_fotosu.jpg"
+        },
+        {
+          "title": "1.Adım",
+          "desc": "Tül fanın logosuz yüzeyine yerleştirilir ve sünger fan başlığı parçası üzerine oturtulur.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/18.el_supurgesi/el_supurgesi_adim_1.mp4"
+        },
+        {
+          "title": "2.Adım",
+          "desc": "Kartonun işaretli yerine 2 numaralı(5x1,5cm) bant yapıştırılır ve kağıdı soyulur. Kartonun kenarları şekildeki gibi yapıştırılır ve koni şekline getirilir.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/18.el_supurgesi/el_supurgesi_adim_2.mp4"
+        },
+        {
+          "title": "3.Adım",
+          "desc": "Süngerin etrafına yapışkan hamur yapıştırılır.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/18.el_supurgesi/el_supurgesi_adim_3.mp4"
+        },
+        {
+          "title": "4.Adım",
+          "desc": "Sünger, tasarımlı kartona yapıştırılır. Halka sünger kartonun dış kısmına geçirilir.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/18.el_supurgesi/el_supurgesi_adim_4.mp4"
+        },
+        {
+          "title": "5.Adım",
+          "desc": "Elektrikli süpürgen hazır! Güç modülüne fan eklenir. Anahtar “on” konumuna getirilir ve temizliğe başlanır!",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/18.el_supurgesi/el_supurgesi_adim_5.mp4"
+        }
+      ],
+      "id": "8727cf04-3f32-48ba-8005-ad5c11956ed4"
+    },
+    {
+      "title": "Spin Art",
+      "imageName": "https://twinner.blob.core.windows.net/app/experiments/25.spin_art/spin_art_kapak_fotosu.png",
+      "duration": "20 dk",
+      "difficulty": 2,
+      "langCode": "tr",
+      "requiredIds": [
+        1001,
+        3002,
+        4005
+      ],
+      "media": "https://twinner.blob.core.windows.net/app/experiments/25.spin_art/spin_art_adim_5.mp4",
+      "chartImage": "https://twinner.blob.core.windows.net/app/experiments/08.muzik_kutusu/muzik_kutusu_chart.png",
+      "tutorials": [
+        {
+          "title": "Malzemeler",
+          "desc": "1) Boya Tüpleri\n2)Yuvarlak Kağıt\n3) Çift Taraflı Bant No.3\n4)Fan\n5) Güç\n6) Kızaklı Dim\n7) Küçük Forex Plaka\n8) Yapışkan Hamur\n9) Çift Taraflı Bant No.1\n10) Yuvarlak Sünger",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/25.spin_art/spin_art_malzeme_fotosu.jpg"
+        },
+        {
+          "title": "1.Adım",
+          "desc": "Yuvarlak çift taraflı bant süngerin her iki yüzeyinin ortasına yapıştırılır ve sünger fanın logosuz yüzeyinin üzerine yerleştirilir.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/25.spin_art/spin_art_adim_1.mp4"
+        },
+        {
+          "title": "2.Adım",
+          "desc": "Fanın Twin logolu yüzeyi 3 numaralı(5cmx5cm) çift taraflı bant yardımıyla kutunun ortasına sabitlenir.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/25.spin_art/spin_art_adim_2.mp4"
+        },
+        {
+          "title": "3.Adım",
+          "desc": "Küçük plaka süngerin üzerine yerleştirilir. Plakanın ortasındaki deliğin süngerin ortasındaki delik ile hizalandığından emin olunur.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/25.spin_art/spin_art_adim_3.mp4"
+        },
+        {
+          "title": "4.Adım",
+          "desc": "Yuvarlak kağıt yapışkan hamurlar yardımıyla plakanın üzerine yapıştırılır.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/25.spin_art/spin_art_adim_4.mp4"
+        },
+        {
+          "title": "5.Adım",
+          "desc": "Devre açılır ve dönen kağıda istediğin renkler damlatılır. Boyaların iyice dağılması beklenir ve devre kapatılır. Sanat eserin hazır!",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/25.spin_art/spin_art_adim_5.mp4"
+        }
+      ],
+      "id": "4b64c9f4-da68-40b6-b71b-155f6bdb55f4"
+    },
+    {
+      "title": "Siyahın İçindeki Renkler",
+      "imageName": "https://twinner.blob.core.windows.net/app/experiments/24.siyahlarin_icinde_renkler/siyahin_icindeki_renkler_kapak_fotosu.png",
+      "duration": "20 dk",
+      "difficulty": 2,
+      "langCode": "tr",
+      "requiredIds": [
+        1001,
+        3002,
+        4005
+      ],
+      "media": "https://twinner.blob.core.windows.net/app/experiments/24.siyahlarin_icinde_renkler/siyahin_icindeki_renkler_adim_7.mp4",
+      "chartImage": "https://twinner.blob.core.windows.net/app/experiments/14.film_makinesi/film_makinesi_chart.png",
+      "tutorials": [
+        {
+          "title": "Malzemeler",
+          "desc": "1) Yıkanabilir Keçeli Kalem ve Pipet\n2) Kap\n3) Filtre Kağıdı\n4) Çift Taraflı Bant No.3\n5) Fan\n6) Güç\n7) Kızaklı Dim\n8) Küçük Plaka\n9) Yapışkan Hamur\n10) Çift Taraflı Bant No.1\n11) Yuvarlak Sünger",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/24.siyahlarin_icinde_renkler/siyahin_icindeki_renkler_malzeme_fotosu.jpg"
+        },
+        {
+          "title": "1.Adım",
+          "desc": "Yuvarlak çift taraflı bant süngerin her iki yüzeyinin ortasına yapıştırılır ve sünger fanın logosuz yüzeyinin üzerine yerleştirilir.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/24.siyahlarin_icinde_renkler/siyahin_icindeki_renkler_adim_1.mp4"
+        },
+        {
+          "title": "2.Adım",
+          "desc": "Fanın Twin logolu yüzeyi 3 numaralı(5cmx5cm) çift taraflı bant yardımıyla kutunun ortasına sabitlenir.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/24.siyahlarin_icinde_renkler/siyahin_icindeki_renkler_adim_2.mp4"
+        },
+        {
+          "title": "3.Adım",
+          "desc": "Küçük plaka süngerin üzerine yerleştirilir. Plakanın ortasındaki deliğin süngerin ortasındaki delik ile hizalandığından emin olunur.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/24.siyahlarin_icinde_renkler/siyahin_icindeki_renkler_adim_3.mp4"
+        },
+        {
+          "title": "4.Adım",
+          "desc": "Filtre kağıdı yapışkan hamurlar yardımıyla plakanın üzerine yapıştırılır.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/24.siyahlarin_icinde_renkler/siyahin_icindeki_renkler_adim_4.mp4"
+        },
+        {
+          "title": "5.Adım",
+          "desc": "Fan kablosu kutunun içerisine yapışkan hamur ile sabitlenir ve devre açılır. Keçeli kalem kullanılarak kağıdın üzerine daireler çizilir.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/24.siyahlarin_icinde_renkler/siyahin_icindeki_renkler_adim_5.mp4"
+        },
+        {
+          "title": "6.Adım",
+          "desc": "Damlalık ile su çekilir ve kağıdın üzerine damlatmaya başlanır. 10-15 damla damlatman yeterli. Ne görüyorsun?",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/24.siyahlarin_icinde_renkler/siyahin_icindeki_renkler_adim_6.mp4"
+        },
+        {
+          "title": "7.Adım",
+          "desc": "Ne görüyorsun?",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/24.siyahlarin_icinde_renkler/siyahin_icindeki_renkler_adim_7.mp4"
+        }
+      ],
+      "id": "a81d9340-ab37-437c-8ea2-4a5093a9619b"
+    },
+    {
+      "title": "Renklerin Birleşmesi",
+      "imageName": "https://twinner.blob.core.windows.net/app/experiments/23.renklerin_birlesmesi/renk_carki_kapak_fotosu.png",
+      "duration": "15 dk",
+      "difficulty": 2,
+      "langCode": "tr",
+      "requiredIds": [
+        1001,
+        3002,
+        4005
+      ],
+      "media": "https://twinner.blob.core.windows.net/app/experiments/23.renklerin_birlesmesi/renk_carki_adim_5.mp4",
+      "chartImage": "https://twinner.blob.core.windows.net/app/experiments/14.film_makinesi/film_makinesi_chart.png",
+      "tutorials": [
+        {
+          "title": "Malzemeler",
+          "desc": "1) Renk Çarkı\n2) Küçük Forex Plaka\n3) Çift Taraflı Bant No.3\n4) Yuvarlak Sünger\n5) Fan\n6)Güç\n7)Kızaklı Dim\n8)Yapışkan Hamur\n9) Çift Taraflı Bant No.1",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/23.renklerin_birlesmesi/renk_carki_malzeme_fotosu.jpg"
+        },
+        {
+          "title": "1.Adım",
+          "desc": "Yuvarlak çift taraflı bant süngerin her iki yüzeyinin ortasına yapıştırılır ve sünger fanın logosuz yüzeyinin üzerine yerleştirilir.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/23.renklerin_birlesmesi/renk_carki_adim_1.mp4"
+        },
+        {
+          "title": "2.Adım",
+          "desc": "Fanın Twin logolu yüzeyi 3 numaralı(5cmx5cm) çift taraflı bant yardımıyla kutunun ortasına sabitlenir.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/23.renklerin_birlesmesi/renk_carki_adim_2.mp4"
+        },
+        {
+          "title": "3.Adım",
+          "desc": "Küçük plaka süngerin üzerine yerleştirilir. Plakanın ortasındaki deliğin süngerin ortasındaki delik ile hizalandığından emin olunur.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/23.renklerin_birlesmesi/renk_carki_adim_3.mp4"
+        },
+        {
+          "title": "4.Adım",
+          "desc": "Renk diski yapışkan hamurlar yardımıyla plakanın üzerine yapıştırılır.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/23.renklerin_birlesmesi/renk_carki_adim_4.mp4"
+        },
+        {
+          "title": "5.Adım",
+          "desc": "Anahtar açık duruma getirilir, kızaklı dim ileri itilir.  Kırmızı, yeşil ve mavi renklerin nasıl karıştığı gözlemlenir.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/23.renklerin_birlesmesi/renk_carki_adim_5.mp4"
+        }
+      ],
+      "id": "49e821ed-adc2-42ca-affc-3dc6e60c4d1f"
+    },
+    {
+      "title": "Newton Diski",
+      "imageName": "https://twinner.blob.core.windows.net/app/experiments/22.newton_carki/newton_carki_kapak_fotosu.png",
+      "duration": "15 dk",
+      "difficulty": 2,
+      "langCode": "tr",
+      "requiredIds": [
+        1001,
+        3002,
+        4005
+      ],
+      "media": "https://twinner.blob.core.windows.net/app/experiments/22.newton_carki/newton_carki_adim_5.mp4",
+      "chartImage": "https://twinner.blob.core.windows.net/app/experiments/14.film_makinesi/film_makinesi_chart.png",
+      "tutorials": [
+        {
+          "title": "Malzemeler",
+          "desc": "1) Newton Çarkı\n2) Küçük Forex Plaka\n3) Çift Taraflı Bant No.3\n4) Yuvarlak Sünger\n5) Fan\n6)Güç\n7)Kızaklı Dim\n8)Yapışkan Hamur\n9) Çift Taraflı Bant No.1",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/22.newton_carki/newton_carki_malzeme_fotosu.jpg"
+        },
+        {
+          "title": "1.Adım",
+          "desc": "Yuvarlak çift taraflı bant süngerin her iki yüzeyinin ortasına yapıştırılır ve sünger fanın logosuz yüzeyinin üzerine yerleştirilir.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/22.newton_carki/newton_carki_adim_1.mp4"
+        },
+        {
+          "title": "2.Adım",
+          "desc": "Fanın Twin logolu yüzeyi 3 numaralı(5cmx5cm) çift taraflı bant yardımıyla kutunun ortasına sabitlenir.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/22.newton_carki/newton_carki_adim_2.mp4"
+        },
+        {
+          "title": "3.Adım",
+          "desc": "Küçük plaka süngerin üzerine yerleştirilir. Plakanın ortasındaki deliğin süngerin ortasındaki delik ile hizalandığından emin olunur.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/22.newton_carki/newton_carki_adim_3.mp4"
+        },
+        {
+          "title": "4.Adım",
+          "desc": "Newton diski yapışkan hamurlar yardımıyla plakanın üzerine yapıştırılır.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/22.newton_carki/newton_carki_adim_4.mp4"
+        },
+        {
+          "title": "5.Adım",
+          "desc": "Anahtar açılır, kızaklı dim ileri itilir. Hangi renk oluştu?",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/22.newton_carki/newton_carki_adim_5.mp4"
+        }
+      ],
+      "id": "e6a6b578-7ec6-4379-acf3-df1e1473d542"
+    },
+    {
+      "title": "Gizemli Renkler",
+      "imageName": "https://twinner.blob.core.windows.net/app/experiments/20.gizemli_renkler/gizemli_renkler_kapak_fotosu.png",
+      "duration": "20 dk",
+      "difficulty": 2,
+      "langCode": "tr",
+      "requiredIds": [
+        1001,
+        3002,
+        4005
+      ],
+      "media": "https://twinner.blob.core.windows.net/app/experiments/20.gizemli_renkler/gizemli_renkler_adim_5.mp4",
+      "chartImage": "https://twinner.blob.core.windows.net/app/experiments/14.film_makinesi/film_makinesi_chart.png",
+      "tutorials": [
+        {
+          "title": "Malzemeler",
+          "desc": "1) Benham Çarkları\n2) Büyük Forex Plaka\n3)Fan\n4) Güç\n5) Kızaklı Dim\n6) Yuvarlak Sünger\n7) Çift Taraflı Bant No.1",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/20.gizemli_renkler/gizemli_renkler_malzeme_fotosu.jpg"
+        },
+        {
+          "title": "1.Adım",
+          "desc": "Yuvarlak çift taraflı bant süngerin her iki yüzeyinin ortasına yapıştırılır ve sünger fanın logosuz yüzeyinin üzerine yerleştirilir.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/20.gizemli_renkler/gizemli_renkler_adim_1.mp4"
+        },
+        {
+          "title": "2.Adım",
+          "desc": "Fanın Twin logolu yüzeyi 3 numaralı(5cmx5cm) çift taraflı bant yardımıyla kutunun ortasına sabitlenir.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/20.gizemli_renkler/gizemli_renkler_adim_2.mp4"
+        },
+        {
+          "title": "3.Adım",
+          "desc": "Küçük plaka süngerin üzerine yerleştirilir. Plakanın ortasındaki deliğin süngerin ortasındaki delik ile hizalandığından emin olunur.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/20.gizemli_renkler/gizemli_renkler_adim_3.mp4"
+        },
+        {
+          "title": "4.Adım",
+          "desc": "Benham diski yapışkan hamurlar yardımıyla plakanın üzerine yapıştırılır.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/20.gizemli_renkler/gizemli_renkler_adim_4.mp4"
+        },
+        {
+          "title": "5.Adım",
+          "desc": "Anahtar açılır, kızaklı dim ileri itilir ve oluşan illüzyonlar izlenir. İkinci disk ile tekrar denenir.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/20.gizemli_renkler/gizemli_renkler_adim_5.mp4"
+        }
+      ],
+      "id": "7293bc13-228d-40d3-950f-542c14148406"
+    },
+    {
+      "title": "Thaumatrope",
+      "imageName": "https://twinner.blob.core.windows.net/app/experiments/26.thaumatrope/thaumatrope_kapak_fotosu.png",
+      "duration": "15 dk",
+      "difficulty": 2,
+      "langCode": "tr",
+      "requiredIds": [
+        1001,
+        3002,
+        4005
+      ],
+      "media": "https://twinner.blob.core.windows.net/app/experiments/26.thaumatrope/thaumatrope_adim_3.mp4",
+      "chartImage": "https://twinner.blob.core.windows.net/app/experiments/14.film_makinesi/film_makinesi_chart.png",
+      "tutorials": [
+        {
+          "title": "Malzemeler",
+          "desc": "1) Thaumatrope Plakası\n2) Thaumatrope Süngeri\n3) Thaumatrope Kartları\n4) Fan\n5) Güç\n6) Kızaklı Dim",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/26.thaumatrope/thaumatrope_malzeme_fotosu.jpg"
+        },
+        {
+          "title": "1.Adım",
+          "desc": "Fanın üzerine 5 numaralı (2x4 cm) bant yapıştırılır.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/26.thaumatrope/thaumatrope_adim_1.mp4"
+        },
+        {
+          "title": "2.Adım",
+          "desc": "Bandın üzerine Thaumatrope süngeri yapıştırılır. Thaumatrope kartları Thaumatrope plakasına şekildeki gibi oturtulur ve süngerin üzerine yerleştirilir.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/26.thaumatrope/thaumatrope_adim_2.mp4"
+        },
+        {
+          "title": "3.Adım",
+          "desc": "Güç, kızaklı dim ve fan modülleri bağlanır. Kızaklı dim ileri itilir.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/26.thaumatrope/thaumatrope_adim_3.mp4"
+        }
+      ],
+      "id": "d0034933-b214-4a50-8bc1-0c6899635509"
+    },
+    {
+      "title": "Çizim Robotu",
+      "imageName": "https://twinner.blob.core.windows.net/app/experiments/17.cizim_robotu/cizim_robotu_kapak_fotosu.png",
+      "duration": "20 dk",
+      "difficulty": 3,
+      "langCode": "tr",
+      "requiredIds": [
+        1001,
+        3002,
+        4005
+      ],
+      "media": "https://twinner.blob.core.windows.net/app/experiments/17.cizim_robotu/cizim_robotu_adim_5.mp4",
+      "chartImage": "https://twinner.blob.core.windows.net/app/experiments/14.film_makinesi/film_makinesi_chart.png",
+      "tutorials": [
+        {
+          "title": "Malzemeler",
+          "desc": "1) Büyük Forex Plaka\n2) Lastikler\n3) Çift Taraflı Bant No.4\n4) Çift Taraflı Bant No.5\n5) Renkli Keçeli Kalemler\n6) Fan\n7) Güç\n8) Kızaklı Dim\n9) Yapışkan Hamur",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/17.cizim_robotu/cizim_robotu_malzeme_fotosu.jpg"
+        },
+        {
+          "title": "1.Adım",
+          "desc": "Büyük plakanın deliklerinden keçeli kalemler geçirilir.Kalemler lastikler ile sabitlenir.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/17.cizim_robotu/cizim_robotu_adim_1.mp4"
+        },
+        {
+          "title": "2.Adım",
+          "desc": "Plakanın üzerine 4 Numaralı (13x3.5 cm) ve 5 Numaralı (2x4 cm) bantlar yapıştırılır.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/17.cizim_robotu/cizim_robotu_adim_2.mp4"
+        },
+        {
+          "title": "3.Adım",
+          "desc": "Güç, Kızaklı Dim ve Fan plakanın üzerine yapıştırılır.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/17.cizim_robotu/cizim_robotu_adim_3.mp4"
+        },
+        {
+          "title": "4.Adım",
+          "desc": "3 yapışkan hamur birleştirilir ve fanın logosuz yüzeyinin ortasına yapıştırılır.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/17.cizim_robotu/cizim_robotu_adim_4.mp4"
+        },
+        {
+          "title": "5.Adım",
+          "desc": "Devre açılır, fan titremeye başlar! Yaratıcı çizimleri görüyor musun? Robotunun çizimlerini odanın duvarlarına asabilirsin.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/17.cizim_robotu/cizim_robotu_adim_5.mp4"
+        }
+      ],
+      "id": "c11ba0b1-c5ce-47c0-b38d-5fef4803b127"
+    },
+    {
+      "title": "Kapı Zili",
+      "imageName": "https://twinner.blob.core.windows.net/app/experiments/27.kapi_zili/kapi_zili_kapak_fotosu.png",
+      "duration": "10 dk",
+      "difficulty": 1,
+      "langCode": "tr",
+      "requiredIds": [
+        1001,
+        4003,
+        3007,
+        4004
+      ],
+      "media": "https://twinner.blob.core.windows.net/app/experiments/27.kapi_zili/kapi_zili_adim_4.mp4",
+      "chartImage": "https://twinner.blob.core.windows.net/app/experiments/01.trafik_lambasi/trafik_lambasi_chart.png",
+      "tutorials": [
+        {
+          "title": "Malzemeler",
+          "desc": "1) Kapı Zili Kartonu\n2) Güç\n3) Sıralı LED\n4) Mesafe Algılayıcı\n5) Zil\n6) Yapışkan Hamur",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/27.kapi_zili/kapi_zili_malzeme_fotosu.jpg"
+        },
+        {
+          "title": "1.Adım",
+          "desc": "Güç, mesafe algılayıcı, sıralı led ve zil modülleri birbirine bağlanır.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/27.kapi_zili/kapi_zili_adim_1.mp4"
+        },
+        {
+          "title": "2.Adım",
+          "desc": "Modüller, yapışkan hamur yardımıyla tasarımlı kartona yapıştırılır.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/27.kapi_zili/kapi_zili_adim_2.mp4"
+        },
+        {
+          "title": "3.Adım",
+          "desc": "Mesafe algılayıcının “b” modunda olduğundan emin olunur ve anahtar “on” konumuna getirilir.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/27.kapi_zili/kapi_zili_adim_3.mp4"
+        },
+        {
+          "title": "4.Adım",
+          "desc": "Kapı zili kartonuna odana verdiğin ismi yazmayı unutma!",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/27.kapi_zili/kapi_zili_adim_4.mp4"
+        }
+      ],
+      "id": "209b5475-01f0-4dfc-91ee-9eb142665691"
+    },
+    {
+      "title": "Kapıdaki Misafir",
+      "imageName": "https://twinner.blob.core.windows.net/app/experiments/28.kapidaki_misafir/kapidaki_misafir_kapak_fotosu.png",
+      "duration": "20 dk",
+      "difficulty": 3,
+      "langCode": "tr",
+      "requiredIds": [
+        1001,
+        4003,
+        3007,
+        4004,
+        2001
+      ],
+      "media": "https://twinner.blob.core.windows.net/app/experiments/28.kapidaki_misafir/kapidaki_misafir_adim_4.mp4",
+      "chartImage": "https://twinner.blob.core.windows.net/app/experiments/05.radar/radar_chart.png",
+      "tutorials": [
+        {
+          "title": "Malzemeler",
+          "desc": "1)Kapıdaki Misafir Kartonu\n2) Sünger Kanalı Kartonu\n3) Abeslang\n4)Güç\n5) Sıralı LED\n6) Mesafe Algılayıcı\n7) Bağlantı Kablosu\n8) Zil\n9) Çift Taraflı Bant\n10) Çubuk\n11) Sünger\n12) Yapışkan Hamur",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/28.kapidaki_misafir/kapidaki_misafir_malzeme_fotosu.jpg"
+        },
+        {
+          "title": "1.Adım",
+          "desc": "Sünger kanalı kartonu videodaki gibi içe ve dışa katlanarak kapıdaki misafir kartonuna bantlanır.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/28.kapidaki_misafir/kapidaki_misafir_adim_1.mp4"
+        },
+        {
+          "title": "2.Adım",
+          "desc": "Sünger parça kartonun kanalına yerleştirilir. Abeslang çubuk parça süngerin içerisine oturtulur.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/28.kapidaki_misafir/kapidaki_misafir_adim_2.mp4"
+        },
+        {
+          "title": "3.Adım",
+          "desc": "Güç, mesafe algılayıcı, bağlantı kablosu, sıralı LED modülleri bağlanır ve yapışkan hamur yardımıyla kapıdaki misafir kartonunun üzerine yapıştırılır.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/28.kapidaki_misafir/kapidaki_misafir_adim_3.mp4"
+        },
+        {
+          "title": "4.Adım",
+          "desc": "Mesafe algılayıcının “a” modunda olduğundan emin ol. Çubuğu kaydır ve sıralı LED'i uygunluk durumuna göre ayarlanır. Kırmızı ışık “müsait değilim”, yeşil ışık “müsaitim” olabilir.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/28.kapidaki_misafir/kapidaki_misafir_adim_4.mp4"
+        }
+      ],
+      "id": "b0cff6f9-3c11-44a0-b2b9-2e6de907718a"
+    },
+    {
+      "title": "Akıllı Çöp Kutusu",
+      "imageName": "https://twinner.blob.core.windows.net/app/experiments/29.akilli_cop_kutusu/akilli_cop_kutusu_kapak_fotosu.png",
+      "duration": "15 dk",
+      "difficulty": 2,
+      "langCode": "tr",
+      "requiredIds": [
+        1001,
+        4003,
+        3007,
+        4004,
+        2001
+      ],
+      "media": "https://twinner.blob.core.windows.net/app/experiments/29.akilli_cop_kutusu/akilli_cop_kutusu_adim_2.mp4",
+      "chartImage": "https://twinner.blob.core.windows.net/app/experiments/01.trafik_lambasi/trafik_lambasi_chart.png",
+      "tutorials": [
+        {
+          "title": "Malzemeler",
+          "desc": "1) Çöp Kutusu\n2) Güç\n3) Mesafe Algılayıcı\n4) Yapışkan Hamur\n5) Bağlantı Kablosu\n6) Sıralı LED\n7) Zil",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/29.akilli_cop_kutusu/akilli_cop_kutusu_malzeme_fotosu.jpg"
+        },
+        {
+          "title": "1.Adım",
+          "desc": "Güç, bağlantı kablosu, mesafe algılayıcı, sıralı LED ve zil modülleri bağlanır. Mesafe algılayıcının “b” modunda olduğundan emin ol.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/29.akilli_cop_kutusu/akilli_cop_kutusu_adim_1.mp4"
+        },
+        {
+          "title": "2.Adım",
+          "desc": "Modüller bir çöp kutusunun yanına bant ile yapıştırılır. Mesafe algılayıcı çöp kutusunun içerisini görecek şekilde yapışkan hamur ile sabitlenir.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/29.akilli_cop_kutusu/akilli_cop_kutusu_adim_2.mp4"
+        }
+      ],
+      "id": "386b81a7-64a7-4bf8-a5e3-e3332fa08a3d"
+    },
+    {
+      "title": "Akıllı Dolap Aydınlatması",
+      "imageName": "https://twinner.blob.core.windows.net/app/experiments/30.akilli_dolap_aydinlatmasi/akilli_dolap_aydinlatmasi_kapak_fotosu.png",
+      "duration": "20 dk",
+      "difficulty": 2,
+      "langCode": "tr",
+      "requiredIds": [
+        1001,
+        4003,
+        3007,
+        2001
+      ],
+      "media": "https://twinner.blob.core.windows.net/app/experiments/30.akilli_dolap_aydinlatmasi/akilli_dolap_aydinlatmasi_adim_3.mp4",
+      "chartImage": "https://twinner.blob.core.windows.net/app/experiments/01.trafik_lambasi/trafik_lambasi_chart.png",
+      "tutorials": [
+        {
+          "title": "Malzemeler",
+          "desc": "1) Dolap, çekmece veya kutu\n2) Bağlantı Kablosu\n3) Güç\n4) Mesafe Algılayıcı\n5) Sıralı LED\n6) Yapışkan Hamur",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/30.akilli_dolap_aydinlatmasi/akilli_dolap_aydinlatmasi_malzeme_fotosu.jpg"
+        },
+        {
+          "title": "1.Adım",
+          "desc": "Güç, mesafe algılayıcı, bağlantı kablosu ve sıralı LED modülleri bağlanır.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/30.akilli_dolap_aydinlatmasi/akilli_dolap_aydinlatmasi_adim_1.mp4"
+        },
+        {
+          "title": "2.Adım",
+          "desc": "Modüller bir dolap veya kutunun içerisine yapışkan hamur ile yapıştırılır. Mesafe algılayıcı kutunun kapağını görecek şekilde yapışkan hamur ile sabitlenir.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/30.akilli_dolap_aydinlatmasi/akilli_dolap_aydinlatmasi_adim_2.mp4"
+        },
+        {
+          "title": "3.Adım",
+          "desc": "Mesafe algılayıcının “a” modunda olduğu kontrol edilir ve kapak açıldığında dolabınız aydınlanmış olur!",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/30.akilli_dolap_aydinlatmasi/akilli_dolap_aydinlatmasi_adim_3.mp4"
+        }
+      ],
+      "id": "4f358e6b-4fd0-4794-a56d-8ce851dd9fdb"
+    },
+    {
+      "title": "Akıllı Mum",
+      "imageName": "https://twinner.blob.core.windows.net/app/experiments/31.akilli_mum/akilli_mum_kapak_fotosu.png",
+      "duration": "15 dk",
+      "difficulty": 2,
+      "langCode": "tr",
+      "requiredIds": [
+        1001,
+        4003,
+        3005,
+        2001,
+        2003
+      ],
+      "media": "https://twinner.blob.core.windows.net/app/experiments/31.akilli_mum/akilli_mum_adim_2.mp4",
+      "chartImage": "https://twinner.blob.core.windows.net/app/experiments/06.dogumgunu/dogum_gunu_chart.png",
+      "tutorials": [
+        {
+          "title": "Malzemeler",
+          "desc": "1) Pasta Tabağı\n2) Güç\n3) Bağlantı Kablosu\n4) Ses Algılayıcı\n5) Sinyal Sabitleyici\n6) Sıralı LED",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/31.akilli_mum/akilli_mum_malzeme_fotosu.jpg"
+        },
+        {
+          "title": "1.Adım",
+          "desc": "Güç, bağlantı kablosu, ses algılayıcı, sinyal sabitleyici, ve sıralı led modülleri bağlanır.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/31.akilli_mum/akilli_mum_adim_1.mp4"
+        },
+        {
+          "title": "2.Adım",
+          "desc": "Sıralı led, pastanın yanına yerleştirilir. Ses algılayıcı modülüne üfleyerek mum yakılır, tekrar üfleyerek söndürülür. Iyi ki doğdun!",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/31.akilli_mum/akilli_mum_adim_2.mp4"
+        }
+      ],
+      "id": "e30dd7f3-e816-40c6-bd1d-9d048c036248"
+    },
+    {
+      "title": "Alkışla Aydınlansın",
+      "imageName": "https://twinner.blob.core.windows.net/app/experiments/32.alkisla_aydinlansin/alkisla_aydinlansin_kapak_fotosu.png",
+      "duration": "15 dk",
+      "difficulty": 2,
+      "langCode": "tr",
+      "requiredIds": [
+        1001,
+        3005,
+        2003,
+        2001,
+        4003
+      ],
+      "media": "https://twinner.blob.core.windows.net/app/experiments/32.alkisla_aydinlansin/alkisla_aydinlansin_adim_4.mp4",
+      "chartImage": "https://twinner.blob.core.windows.net/app/experiments/06.dogumgunu/dogum_gunu_chart.png",
+      "tutorials": [
+        {
+          "title": "Malzemeler",
+          "desc": "1) Yunus Desenli Asetat\n2) Güç\n3) Bağlantı Kablosu\n4) Sinyal Sabitleyici\n5) Ses Algılayıcı\n6) Sıralı LED",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/32.alkisla_aydinlansin/alkisla_aydinlansin_malzeme_fotosu.jpg"
+        },
+        {
+          "title": "1.Adım",
+          "desc": "Güç, ses algılayıcı, sinyal sabitleyici, bağlantı kablosu ve sıralı led modülleri bağlanır.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/32.alkisla_aydinlansin/alkisla_aydinlansin_adim_1.mp4"
+        },
+        {
+          "title": "2.Adım",
+          "desc": "Bantın kabı soyulur.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/32.alkisla_aydinlansin/alkisla_aydinlansin_adim_2.mp4"
+        },
+        {
+          "title": "3.Adım",
+          "desc": "Asetatın iki ucunu birleştirerek silindir oluşturulur.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/32.alkisla_aydinlansin/alkisla_aydinlansin_adim_3.mp4"
+        },
+        {
+          "title": "4.Adım",
+          "desc": "Sıralı led modülünün üzerine silindir yerleştirilir. Alkışladığında harika ışık şovu başlayacak!",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/32.alkisla_aydinlansin/alkisla_aydinlansin_adim_4.mp4"
+        }
+      ],
+      "id": "d220bd4c-cba4-423c-80cf-0adc4bcdb87a"
+    },
+    {
+      "title": "Mors Alfabesi",
+      "imageName": "https://twinner.blob.core.windows.net/app/experiments/33.mors_alfabesi/mors_alfabesi_kapak_fotosu.png",
+      "duration": "30 dk",
+      "difficulty": 3,
+      "langCode": "tr",
+      "requiredIds": [
+        1001,
+        3007,
+        4004,
+        2001
+      ],
+      "media": "https://twinner.blob.core.windows.net/app/experiments/33.mors_alfabesi/mors_alfabesi_adim_4.mp4",
+      "chartImage": "https://twinner.blob.core.windows.net/app/experiments/15.uzaktan_kumanda/uzaktan_kumanda_chart.png",
+      "tutorials": [
+        {
+          "title": "Malzemeler",
+          "desc": "1) Mors Alfabesi Kartonu\n2) Güç\n3) Zil\n4) Mors Alfabesi Süngeri\n5) Dikdörtgen Sünger\n6) Mesafe Algılayıcı\n7) Çift Taraflı Bant\n8) Bağlantı Kablosu\n9) Tahta Çubuk",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/33.mors_alfabesi/mors_alfabesi_malzeme_fotosu.jpg"
+        },
+        {
+          "title": "1.Adım",
+          "desc": "Güç, mesafe algılayıcı, bağlantı kablosu ve zil modülleri bağlanır.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/33.mors_alfabesi/mors_alfabesi_adim_1.mp4"
+        },
+        {
+          "title": "2.Adım",
+          "desc": "Dikdörtgen sünger mors alfabesi süngerinin içerisinden geçirilir. Abeslang çubuk dikdörtgen süngerin üzerindeki boşluğa geçirilerek sabitlenir. Bant soyularak zemine yapıştırılır.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/33.mors_alfabesi/mors_alfabesi_adim_2.mp4"
+        },
+        {
+          "title": "3.Adım",
+          "desc": "Mors alfabesi kartonu videodaki gibi içe ve dışa katlanır.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/33.mors_alfabesi/mors_alfabesi_adim_3.mp4"
+        },
+        {
+          "title": "4.Adım",
+          "desc": "Mesafe algılayıcının “a” modunda olduğundan emin olunduktan sonra, sensör mors alfabesi kartonun deliğine sabitlenir. Abeslang çubuk hareket ettirilerek mesajlar iletilir..",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/33.mors_alfabesi/mors_alfabesi_adim_4.mp4"
+        }
+      ],
+      "id": "49a38981-5955-4f93-b742-007ecaa7b69a"
+    },
+    {
+      "title": "Akıllı Mama Kabı",
+      "imageName": "https://twinner.blob.core.windows.net/app/experiments/34.yemek_zamani/yemek_zamani_kapak_fotosu.png",
+      "duration": "10 dk",
+      "difficulty": 1,
+      "langCode": "tr",
+      "requiredIds": [
+        1001,
+        3005,
+        2003,
+        2001,
+        4003
+      ],
+      "media": "https://twinner.blob.core.windows.net/app/experiments/34.yemek_zamani/yemek_zamani_adim_3.mp4",
+      "chartImage": "https://twinner.blob.core.windows.net/app/experiments/03.araba_sinyali/araba_sinyali_chart.png",
+      "tutorials": [
+        {
+          "title": "Malzemeler",
+          "desc": "1) Akıllı Mama Kabı Kartonu\n2) Mama Kabı\n3) Güç\n4) Mesafe Algılayıcı\n5) Zil\n6) Yapışkan Hamur",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/34.yemek_zamani/yemek_zamani_malzeme_fotosu.jpg"
+        },
+        {
+          "title": "1.Adım",
+          "desc": "Güç, mesafe algılayıcı ve zil modülleri birleştirilir.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/34.yemek_zamani/yemek_zamani_adim_1.mp4"
+        },
+        {
+          "title": "2.Adım",
+          "desc": "Modüller kartonun üzerine yapışkan hamur yardımıyla sabitlenir. Mesafe algılayıcının sensörü, kabı görmeyecek şekilde ayarlanır ve “b” modunda olduğundan emin olunur.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/34.yemek_zamani/yemek_zamani_adim_2.mp4"
+        },
+        {
+          "title": "3.Adım",
+          "desc": "Tasarımlı kartonun üzerindeki yemek desenli bölgeye evcil hayvanın yem kabı yerleştirilir.Kaba her yemek koyduğunda elin mesafe algılayıcıya gösterilir ve hayvanın böylece yemek hazır olduğu için uyarılır.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/34.yemek_zamani/yemek_zamani_adim_3.mp4"
+        }
+      ],
+      "id": "a3857d86-9602-4978-ac59-5ec7ed51a9a5"
+    },
+    {
+      "title": "Eşya Alarmı",
+      "imageName": "https://twinner.blob.core.windows.net/app/experiments/35.esya_alarmi/esya_alarmi_kapak_fotosu.png",
+      "duration": "10 dk",
+      "difficulty": 1,
+      "langCode": "tr",
+      "requiredIds": [
+        1001,
+        3007,
+        4004,
+        4003
+      ],
+      "media": "https://twinner.blob.core.windows.net/app/experiments/35.esya_alarmi/esya_alarmi_adim_4.mp4",
+      "chartImage": "https://twinner.blob.core.windows.net/app/experiments/03.araba_sinyali/araba_sinyali_chart.png",
+      "tutorials": [
+        {
+          "title": "Malzemeler",
+          "desc": "1) Eşya Alarmı Kartonu\n2) Kumbara veya Özel Eşya\n3) Güç\n4) Mesafe Algılayıcı\n5) Sıralı LED\n6) Zil\n7) Yapışkan Hamur",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/35.esya_alarmi/esya_alarmi_malzeme_fotosu.jpg"
+        },
+        {
+          "title": "1.Adım",
+          "desc": "Güç, mesafe algılayıcı, sıralı led ve zil modülleri birleştirilir.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/35.esya_alarmi/esya_alarmi_adim_1.mp4"
+        },
+        {
+          "title": "2.Adım",
+          "desc": "Modüller kartonun üzerindeki açık renkli bölgeye yapışkan hamur yardımıyla yapıştırılır.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/35.esya_alarmi/esya_alarmi_adim_2.mp4"
+        },
+        {
+          "title": "3.Adım",
+          "desc": "Tasarımlı kartonun üzerindeki tuğla desenli kulakçıklar kaldırılır.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/35.esya_alarmi/esya_alarmi_adim_3.mp4"
+        },
+        {
+          "title": "4.Adım",
+          "desc": "Mesafe algılayıcının “a” modunda olduğundan emin olunu ve sensörün önüne eşya yerleştirilir. Eşya kaldırıldığına alarm ötecek ve sizi haberdar edecektir!",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/35.esya_alarmi/esya_alarmi_adim_4.mp4"
+        }
+      ],
+      "id": "7fd8a3d8-a8b1-4733-b8d4-d918448f41c5"
+    },
+    {
+      "title": "Akıllı Şapka",
+      "imageName": "https://twinner.blob.core.windows.net/app/experiments/36.akilli_sapka/akilli_sapka_kapak_fotosu.png",
+      "duration": "40 dk",
+      "difficulty": 3,
+      "langCode": "tr",
+      "requiredIds": [
+        1001,
+        3005,
+        4003,
+        2003,
+        2001
+      ],
+      "media": "https://twinner.blob.core.windows.net/app/experiments/36.akilli_sapka/akilli_sapka_adim_8.mp4",
+      "chartImage": "https://twinner.blob.core.windows.net/app/experiments/14.film_makinesi/film_makinesi_chart.png",
+      "tutorials": [
+        {
+          "title": "Malzemeler",
+          "desc": "1) Güç\n2) Ses Algılayıcı\n3) Sıralı LED\n4) Sinyal Sabitleyici\n5) Bağlantı Kablosu\n6) Akıllı Şapka Üst Karton\n7) Alt karton",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/36.akilli_sapka/akilli_sapka_malzeme_fotosu.jpg"
+        },
+        {
+          "title": "1.Adım",
+          "desc": "Şapkanın üst kartonunu videodaki gibi içe ve dışa katlayın.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/36.akilli_sapka/akilli_sapka_adim_1.mp4"
+        },
+        {
+          "title": "2.Adım",
+          "desc": "Şapkanın yan yüzeyleri videodaki gibi katlanır ve bantlanır.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/36.akilli_sapka/akilli_sapka_adim_2.mp4"
+        },
+        {
+          "title": "3.Adım",
+          "desc": "Üst karton ters çevrilir ve üzerindeki bantlar soyularak şapkanın alt kartonu üst kartonuna yapıştırılır.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/36.akilli_sapka/akilli_sapka_adim_3.mp4"
+        },
+        {
+          "title": "4.Adım",
+          "desc": "Güç, ses algılayıcı, bağlantı kablosu, sinyal sabitleyici ve sıralı LED bağlanır.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/36.akilli_sapka/akilli_sapka_adim_4.mp4"
+        },
+        {
+          "title": "5.Adım",
+          "desc": "Mavi renkli karton katlanarak modül yuvası oluşturulur. Sinyal sabitleyici ve sıralı led birbirine bağlanarak içine yapışkan hamur ile sabitlenir.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/36.akilli_sapka/akilli_sapka_adim_5.mp4"
+        },
+        {
+          "title": "6.Adım",
+          "desc": "Modüller modül yuvasına yerleştirilir ve üzerindeki çift taraflı bantlar ile sıralı led şapkanın üzerindeki delik yıldızlara denk gelecek şekilde yapıştırılır.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/36.akilli_sapka/akilli_sapka_adim_6.mp4"
+        },
+        {
+          "title": "7.Adım",
+          "desc": "StickGüç, ses algılayıcı ve bağlantı kablosu yapışkan hamur yardımıyla üst kartonun içerisine videodaki gibi yapıştırılır. Bağlantı kablosunun diğer ucu sinyal sabitleyici ve sıralı LED'e bağlanır.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/36.akilli_sapka/akilli_sapka_adim_7.mp4"
+        },
+        {
+          "title": "8.Adım",
+          "desc": "Hokus pokus, ışıklar yansın!",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/36.akilli_sapka/akilli_sapka_adim_8.mp4"
+        }
+      ],
+      "id": "726e0a0f-73f7-483f-ada5-33dfddc8cc43"
+    },
+    {
+      "title": "Park Sensörü",
+      "imageName": "https://twinner.blob.core.windows.net/app/experiments/37.park_sensoru/park_sensoru_kapak_fotosu.png",
+      "duration": "20 dk",
+      "difficulty": 2,
+      "langCode": "tr",
+      "requiredIds": [
+        1001,
+        3007,
+        4003,
+        4004,
+        2001
+      ],
+      "media": "https://twinner.blob.core.windows.net/app/experiments/37.park_sensoru/park_sensoru_adim_3.mp4",
+      "chartImage": "https://twinner.blob.core.windows.net/app/experiments/03.araba_sinyali/araba_sinyali_chart.png",
+      "tutorials": [
+        {
+          "title": "Malzemeler",
+          "desc": "1) Oyuncak Araba\n2) Güç\n3) Sıralı LED\n4) Mesafe Algılayıcı\n5) Zil\n6) Bağlantı Kablosu\n7) Yapışkan Hamur",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/37.park_sensoru/park_sensoru_malzeme_fotosu.jpg"
+        },
+        {
+          "title": "1.Adım",
+          "desc": "Güç, mesafe algılayıcı, bağlantı kablosu, sıralı LED ve zil modülleri bağlanır.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/37.park_sensoru/park_sensoru_adim_1.mp4"
+        },
+        {
+          "title": "2.Adım",
+          "desc": "Modüller ve mesafe algılayıcının sensörü arabanın üzerine yapışkan hamur ile yapıştırılır.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/37.park_sensoru/park_sensoru_adim_2.mp4"
+        },
+        {
+          "title": "3.Adım",
+          "desc": "Mesafe algılayıcının “b” modunda ol. Park sensörün hazır!  Güvenli sürüşler.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/37.park_sensoru/park_sensoru_adim_3.mp4"
+        }
+      ],
+      "id": "91eed8be-09c3-41de-b603-df2e1f280873"
+    },
+    {
+      "title": "El Feneri",
+      "imageName": "https://twinner.blob.core.windows.net/app/experiments/38.el_feneri/el_feneri_kapak_fotosu.png",
+      "duration": "40 dk",
+      "difficulty": 3,
+      "langCode": "tr",
+      "requiredIds": [
+        1001,
+        3007,
+        4003,
+        2003,
+        2001
+      ],
+      "media": "https://twinner.blob.core.windows.net/app/experiments/38.el_feneri/el_feneri_adim_8.mp4",
+      "chartImage": "https://twinner.blob.core.windows.net/app/experiments/15.uzaktan_kumanda/uzaktan_kumanda_chart.png",
+      "tutorials": [
+        {
+          "title": "Malzemeler",
+          "desc": "1) El Feneri Kartonu\n2) Projeksiyon Kartları\n3) Güç\n4) Sıralı LED\n5) Mesafe Algılayıcı\n6) Bağlantı Kablosu\n7) Sinyal Sabitleyici\n8) Yapışkan Hamur",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/38.el_feneri/el_feneri_malzeme_fotosu.jpg"
+        },
+        {
+          "title": "1.Adım",
+          "desc": "El feneri kartonu şekildeki gibi kırım yerlerinden katlanarak hazırlanır.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/38.el_feneri/el_feneri_adim_1.mp4"
+        },
+        {
+          "title": "2.Adım",
+          "desc": "Güç, mesafe algılayıcı, sinyal sabitleyici, bağlantı kablosu ve sıralı LED modülleri bağlanır.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/38.el_feneri/el_feneri_adim_2.mp4"
+        },
+        {
+          "title": "3.Adım",
+          "desc": "Tasarımlı kartonun içerisine modüller yerleştirilir ve yapışkan hamur ile sabitlenir.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/38.el_feneri/el_feneri_adim_3.mp4"
+        },
+        {
+          "title": "4.Adım",
+          "desc": "Fenerin gövdesi şekildeki gibi katlanır.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/38.el_feneri/el_feneri_adim_4.mp4"
+        },
+        {
+          "title": "5.Adım",
+          "desc": "Bantlar soyularak fenerin başlığı yapıştırılır.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/38.el_feneri/el_feneri_adim_5.mp4"
+        },
+        {
+          "title": "6.Adım",
+          "desc": "Bağlantı kablosu ve sıralı Led başlığın önüne yapışkan hamur yardımıyla yapıştırılır.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/38.el_feneri/el_feneri_adim_6.mp4"
+        },
+        {
+          "title": "7.Adım",
+          "desc": "Projeksiyon kartlarından birini yerleştir.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/38.el_feneri/el_feneri_adim_7.mp4"
+        },
+        {
+          "title": "8.Adım",
+          "desc": "Mesafe algılayıcının “b” modunda olduğundan emin ol. Parmağını sensöre yaklaştır ve ışıkları çalıştır.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/38.el_feneri/el_feneri_adim_8.mp4"
+        }
+      ],
+      "id": "34b95bfd-ae64-4b2f-ba17-7b1fb0f874e9"
+    },
+    {
+      "title": "Kartlı Geçiş Sistemi",
+      "imageName": "https://twinner.blob.core.windows.net/app/experiments/39.kartli_gecis_sistemi/kartli_gecis_sistemi_kapak_fotosu.png",
+      "duration": "30 dk",
+      "difficulty": 3,
+      "langCode": "tr",
+      "requiredIds": [
+        1001,
+        3007,
+        4003,
+        2003,
+        2001
+      ],
+      "media": "https://twinner.blob.core.windows.net/app/experiments/39.kartli_gecis_sistemi/kartli_gecis_sistemi_adim_5.mp4",
+      "chartImage": "https://twinner.blob.core.windows.net/app/experiments/15.uzaktan_kumanda/uzaktan_kumanda_chart.png",
+      "tutorials": [
+        {
+          "title": "Malzemeler",
+          "desc": "1) Kartlı Geçiş Sistemi Kartonu\n2) Kartlar\n3) Güç\n4) Mesafe Algılayıcı\n5) Sıralı LED\n6) Zil\n7) Yapışkan Hamur",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/39.kartli_gecis_sistemi/kartli_gecis_sistemi_malzeme_fotosu.jpg"
+        },
+        {
+          "title": "1.Adım",
+          "desc": "Karton videodaki gibi katlanır.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/39.kartli_gecis_sistemi/kartli_gecis_sistemi_adim_1.mp4"
+        },
+        {
+          "title": "2.Adım",
+          "desc": "Güç, mesafe algılayıcı, sıralı led ve zil modülleri birbirine bağlanır.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/39.kartli_gecis_sistemi/kartli_gecis_sistemi_adim_2.mp4"
+        },
+        {
+          "title": "3.Adım",
+          "desc": "Modüller, yapışkan hamur yardımıyla tasarımlı kartona yapıştırılır. Sensör videodaki gibi kart deliklerine bakacak şekilde yerleştirilir.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/39.kartli_gecis_sistemi/kartli_gecis_sistemi_adim_3.mp4"
+        },
+        {
+          "title": "4.Adım",
+          "desc": "Anahtar “on” konumuna getirilir, mesafe algılayıcı “b” moduna alınır ve kutu videodaki gibi kapatılır.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/39.kartli_gecis_sistemi/kartli_gecis_sistemi_adim_4.mp4"
+        },
+        {
+          "title": "5.Adım",
+          "desc": "Kartlar, deliklerine yerleştirilir. Kartın sensöre yakınlık derecesine göre ışık ve ses şiddetinde değişiklik olacaktır. Buna göre hangi misafirinin geldiğini tahmin edebilirsin!",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/39.kartli_gecis_sistemi/kartli_gecis_sistemi_adim_5.mp4"
+        }
+      ],
+      "id": "1c771ec5-1135-450e-aaae-c3955f2e9bce"
+    },
+    {
+      "title": "Özel Kod Girişi",
+      "imageName": "https://twinner.blob.core.windows.net/app/experiments/40.ozel_kod_girisi/ozel_kod_girisi_kapak_fotosu.png",
+      "duration": "30 dk",
+      "difficulty": 3,
+      "langCode": "tr",
+      "requiredIds": [
+        1001,
+        3005,
+        4003,
+        4004,
+        2001
+      ],
+      "media": "https://twinner.blob.core.windows.net/app/experiments/40.ozel_kod_girisi/ozel_kod_girisi_adim_5.mp4",
+      "chartImage": "https://twinner.blob.core.windows.net/app/experiments/15.uzaktan_kumanda/uzaktan_kumanda_chart.png",
+      "tutorials": [
+        {
+          "title": "Malzemeler",
+          "desc": "1) Özel Kod Girişi Kartonu\n2) Güç\n3) Ses Algılayıcı\n4) Sıralı LED\n5) Bağlantı Kablosu\n6) Zil\n7) Mesafe Algılayıcı\n8) Pipet\n9) Yapışkan Hamur",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/40.ozel_kod_girisi/ozel_kod_girisi_malzeme_fotosu.jpg"
+        },
+        {
+          "title": "1.Adım",
+          "desc": "Karton videodaki gibi katlanır.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/40.ozel_kod_girisi/ozel_kod_girisi_adim_1.mp4"
+        },
+        {
+          "title": "2.Adım",
+          "desc": "Güç, ses algılayıcı, bağlantı kablosu, mesafe algılayıcı, sıralı LED ve zil modülleri birbirine bağlanır. Mesafe algılayıcının “b” modunda olduğundan emin olunur.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/40.ozel_kod_girisi/ozel_kod_girisi_adim_2.mp4"
+        },
+        {
+          "title": "3.Adım",
+          "desc": "Sıralı LED'in ışıkları uzun geniş kesiğe, mesafe algılayıcının sensörü bir kare deliğe, ses algılayıcı bir yuvarlak deliğe gelecek şekilde sabitlenir.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/40.ozel_kod_girisi/ozel_kod_girisi_adim_3.mp4"
+        },
+        {
+          "title": "4.Adım",
+          "desc": "Anahtar “on” konumuna getirilir ve karton videodaki gibi katlanarak kapatılır.",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/40.ozel_kod_girisi/ozel_kod_girisi_adim_4.mp4"
+        },
+        {
+          "title": "5.Adım",
+          "desc": "Kapı zilinin çalabilmesi için pipet ile doğru delikteki ses algılayıcıya üflenmesi ve 4 saniye içerisinde doğru delikteki mesafe algılayıcıya pipetin gösterlimesi gerekir. Senin koyacağın kodu bilmeyenler odaya giremez!",
+          "media": "https://twinner.blob.core.windows.net/app/experiments/40.ozel_kod_girisi/ozel_kod_girisi_adim_5.mp4"
+        }
+      ],
+      "id": "46f7faa2-cee8-4ea2-b44f-6695f76028ab"
+    }
+  ]
+

@@ -32,7 +32,12 @@ export default function ModuleCard({
           dispatch(moduleToggle(id));
         }}
       >
-        <CardMedia component="img" image={imgSrc} alt="kit-card" />
+        <CardMedia
+          style={{ objectFit: "cover", maxHeight: 125, width: "100%" }}
+          component="img"
+          image={imgSrc}
+          alt="kit-card"
+        />
         <CardContent>
           <Grid container justifyContent={"space-between"}>
             <Grid item>{title}</Grid>
