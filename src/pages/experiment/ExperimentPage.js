@@ -10,8 +10,6 @@ export default function ExperimentPage() {
   const cardList = useSelector((state) => state.kitSelection.value);
   const moduleList = useSelector((state) => state.moduleSelection.value);
   const sampleList = [];
-  console.log(cardList);
-  console.log(moduleList);
 
   for (let i = 0; i < cardList.length; i++) {
     if (cardList[i].checked) {
@@ -42,9 +40,6 @@ export default function ExperimentPage() {
       return false;
     });
   }
-
-  console.log("sample");
-  console.log(sampleList);
 
   const selectDifficulty = (difficulty) => {
     if (difficulty == 1) {

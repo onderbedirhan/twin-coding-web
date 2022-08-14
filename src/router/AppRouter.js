@@ -8,6 +8,7 @@ import { useDispatch } from "react-redux/es/exports";
 import { updateKitCardList } from "../redux/actions/kitSelection";
 import { updateModuleCardList } from "../redux/actions/moduleSelection";
 import Modules from "../assets/json/modules_tr.json";
+import ExperimentDetailPage from "../pages/experiment/ExperimentDetailPage";
 
 export default function AppRouter() {
   const dispatch = useDispatch();
@@ -32,6 +33,10 @@ export default function AppRouter() {
         <Route path={routes.KIT_PAGE} element={<KitPage />} />
         <Route path={routes.MODULE_PAGE} element={<ModulePage />} />
         <Route path={routes.EXPERIMENT_PAGE} element={<ExperimentPage />} />
+        <Route
+          path={routes.EXPERIMENT_DETAIL_PAGE}
+          element={<ExperimentDetailPage />}
+        />
       </Routes>
     </BrowserRouter>
   );

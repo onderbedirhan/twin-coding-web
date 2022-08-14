@@ -6,6 +6,8 @@ import Typography from "@mui/material/Typography";
 import { Grid, Stack } from "@mui/material";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import SignalCellularAltIcon from "@mui/icons-material/SignalCellularAlt";
+import { useNavigate, NavLink } from "react-router-dom";
+import { routes } from "../../router/routeList";
 
 export default function ExperimentCard({
   title,
@@ -14,9 +16,15 @@ export default function ExperimentCard({
   imgSrc,
   size = 4,
 }) {
+  const navigate = useNavigate();
   return (
     <Grid item xs={size}>
-      <Card sx={{ mt: 1, ml: 1, mr: 1 }}>
+      <Card
+        sx={{ mt: 1, ml: 1, mr: 1 }}
+        onClick={() => {
+          navigate(routes.EXPERIMENT_DETAIL_PAGE);
+        }}
+      >
         <CardMedia
           component="img"
           // height="140"
@@ -24,17 +32,6 @@ export default function ExperimentCard({
           alt="experiment-card"
         />
         <CardContent>
-          {/* <Grid container>{title}</Grid>
-          <Grid container justifyContent="space-between" alignItems="center">
-            <Grid item justifyContent="space-between" alignItems="center">
-              <AccessTimeIcon />
-              {duration}
-            </Grid>
-            <Grid item>
-              <SignalCellularAltIcon />
-              {difficulty}
-            </Grid>
-          </Grid> */}
           <Typography gutterBottom variant="h6" component="div">
             {title}
           </Typography>

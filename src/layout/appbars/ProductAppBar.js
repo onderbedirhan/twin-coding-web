@@ -4,9 +4,6 @@ import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import { useNavigate, NavLink } from "react-router-dom";
 import { routes } from "../../router/routeList";
 import { useSelector } from "react-redux/es/exports";
-import { moduleCardList } from "../../components/cards/moduleCardList";
-import modules from "../../assets/json/modules_tr.json";
-import kits from "../../assets/json/kits_tr.json";
 
 export default function ProductAppBar() {
   const kitList = useSelector((state) => state.kitSelection.value);

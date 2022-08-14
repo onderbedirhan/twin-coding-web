@@ -1,5 +1,4 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { moduleCardList } from "../../components/cards/moduleCardList";
 import Modules from "../../assets/json/modules_tr.json";
 
 const initialState = {
