@@ -1,9 +1,6 @@
 import React from "react";
 import { AppBar, Container, Stack, Fab } from "@mui/material";
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
-import { useNavigate, NavLink } from "react-router-dom";
-import { routes } from "../../router/routeList";
-import { useSelector } from "react-redux/es/exports";
 
 export default function ExperimentDetailAppBar() {
   return (
