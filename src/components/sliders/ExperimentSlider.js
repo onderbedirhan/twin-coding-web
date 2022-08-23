@@ -118,8 +118,8 @@ function SwipeableTextMobileStepper() {
                     <Grid item xs="8">
                       <ReactPlayer
                         controls
-                        width="250px"
-                        height="150px"
+                        width="300px"
+                        height="200px"
                         url={
                           "https://twinner.blob.core.windows.net/app/experiments/02.disko_topu/disko_topu_01.mp4"
                         }
