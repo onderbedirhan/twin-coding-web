@@ -1,7 +1,8 @@
 import React from "react";
-import { AppBar, Container, Stack, Fab, Grid } from "@mui/material";
+import { AppBar, Container, Stack, Fab } from "@mui/material";
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import { useNavigate } from "react-router-dom";
+import { routes } from "../../router/routeList";
 export default function ExperimentAppBar() {
   const navigate = useNavigate();
   return (
@@ -36,8 +37,11 @@ export default function ExperimentAppBar() {
             size="small"
             aria-label="add"
             style={{ backgroundColor: "#00FFDA", color: "white" }}
+            onClick={() => {
+              navigate(routes.KIT_PAGE);
+            }}
           >
-            CHOOSE
+            KITS
           </Fab>
         </Stack>
       </Container>

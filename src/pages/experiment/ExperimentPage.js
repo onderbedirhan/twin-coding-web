@@ -42,9 +42,9 @@ export default function ExperimentPage() {
   }
 
   const selectDifficulty = (difficulty) => {
-    if (difficulty == 1) {
+    if (difficulty === 1) {
       return "Kolay";
-    } else if (difficulty == 2) {
+    } else if (difficulty === 2) {
       return "Orta";
     } else {
       return "Zor";

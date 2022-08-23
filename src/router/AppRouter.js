@@ -4,14 +4,16 @@ import { routes } from "./routeList";
 import KitPage from "../pages/product/KitPage";
 import ModulePage from "../pages/product/ModulePage";
 import ExperimentPage from "../pages/experiment/ExperimentPage";
-import { useDispatch } from "react-redux/es/exports";
+import { useDispatch, useSelector } from "react-redux/es/exports";
 import { updateKitCardList } from "../redux/actions/kitSelection";
 import { updateModuleCardList } from "../redux/actions/moduleSelection";
-import Modules from "../assets/json/modules_tr.json";
 import ExperimentDetailPage from "../pages/experiment/ExperimentDetailPage";
 
 export default function AppRouter() {
   const dispatch = useDispatch();
+
+  const cardList = useSelector((state) => state.kitSelection.value);
+  const moduleList = useSelector((state) => state.moduleSelection.value);
 
   useEffect(() => {
     const kitData = localStorage.getItem("kits");
@@ -29,7 +31,16 @@ export default function AppRouter() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path={routes.HOME_PAGE} element={<KitPage />} />
+        <Route
+          path={routes.HOME_PAGE}
+          element={
+            cardList != null || moduleList != null ? (
+              <ExperimentPage />
+            ) : (
+              <KitPage />
+            )
+          }
+        />
         <Route path={routes.KIT_PAGE} element={<KitPage />} />
         <Route path={routes.MODULE_PAGE} element={<ModulePage />} />
         <Route path={routes.EXPERIMENT_PAGE} element={<ExperimentPage />} />
