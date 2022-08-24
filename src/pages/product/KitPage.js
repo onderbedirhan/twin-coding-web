@@ -11,7 +11,7 @@ export default function KitPage() {
   return (
     <Grid container>
       <ProductAppBar />
-      <Grid container sx={{ mt: 5 }}>
+      <Grid container item sx={{ mt: 6 }}>
         {cardList.map((kitCard) => (
           <KitCard
             key={kitCard.id}

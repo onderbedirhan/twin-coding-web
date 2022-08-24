@@ -3,7 +3,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import { Grid } from "@mui/material";
-import { useSelector, useDispatch } from "react-redux/es/exports";
+import { useDispatch } from "react-redux/es/exports";
 import { moduleToggle } from "../../redux/actions/moduleSelection";
 
 export default function ModuleCard({
@@ -32,10 +32,8 @@ export default function ModuleCard({
         <CardMedia
           style={{
             objectFit: "cover",
-            maxHeight: 125,
             width: "100%",
             height: "100%",
-            minHeight: 125,
           }}
           component="img"
           image={imgSrc}

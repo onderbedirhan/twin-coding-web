@@ -24,7 +24,6 @@ export default function KitCard({
           mt: 2,
           ml: 2,
           mr: 2,
-
           borderRadius: 4,
         }}
         onClick={() => {
@@ -34,8 +33,8 @@ export default function KitCard({
         <CardMedia
           style={{
             objectFit: "cover",
-            maxHeight: 100,
             width: "100%",
+            height: "100%",
           }}
           component="img"
           image={imgSrc}

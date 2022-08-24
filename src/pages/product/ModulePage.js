@@ -11,7 +11,7 @@ export default function ModulePage() {
   return (
     <Grid container>
       <ProductAppBar />
-      <Grid container sx={{ mt: 5 }}>
+      <Grid container item sx={{ mt: 5 }}>
         {moduleList.map((moduleCard) => (
           <ModuleCard
             key={moduleCard.ids[0]}

@@ -2,7 +2,6 @@ import { Grid } from "@mui/material";
 import React from "react";
 import { useSelector } from "react-redux/es/exports";
 import ExperimentCard from "../../components/cards/ExperimentCard";
-import { experimentCardList } from "../../components/cards/experimentCardList";
 import ExperimentAppBar from "../../layout/appbars/ExperimentAppBar";
 import Experiments from "../../assets/json/experiments_v2_tr.json";
 import ExperimentDetails from "../../assets/json/experiments_v2_tr.json";

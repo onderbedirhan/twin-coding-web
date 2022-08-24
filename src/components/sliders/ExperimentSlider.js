@@ -1,46 +1,22 @@
 import * as React from "react";
 import { useTheme } from "@mui/material/styles";
-import Box from "@mui/material/Box";
-import Paper from "@mui/material/Paper";
 import SwipeableViews from "react-swipeable-views";
-import { routes } from "../../router/routeList";
-import { useNavigate } from "react-router-dom";
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
-import { Fab, Grid, TextField } from "@mui/material";
+import { Fab, Grid } from "@mui/material";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import Typography from "@mui/material/Typography";
 import ReactPlayer from "react-player";
-import PlayCircleIcon from "@mui/icons-material/PlayCircle";
-import IconButton from "@mui/material/IconButton";
-import ExperimentDetailAppBar from "../../layout/appbars/ExperimentDetailAppBar";
-
-const images = [
-  {
-    label: "San Francisco – Oakland Bay Bridge, United States",
-    imgPath:
-      "https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60",
-  },
-  {
-    label: "Bird",
-    imgPath:
-      "https://images.unsplash.com/photo-1538032746644-0212e812a9e7?auto=format&fit=crop&w=400&h=250&q=60",
-  },
-  {
-    label: "Bali, Indonesia",
-    imgPath:
-      "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=400&h=250",
-  },
-  {
-    label: "Goč, Serbia",
-    imgPath:
-      "https://images.unsplash.com/photo-1512341689857-198e7e2f3ca8?auto=format&fit=crop&w=400&h=250&q=60",
-  },
-];
+import { useSelector } from "react-redux/es/exports";
 
 export default function ExperimentSlider() {
+  const currentExperiment = useSelector(
+    (state) => state.experimentSelection.value
+  );
+  const maxSteps = currentExperiment.tutorials.length;
+
   const theme = useTheme();
+
   const [activeStep, setActiveStep] = React.useState(0);
-  const maxSteps = images.length;
 
   const handleNext = () => {
     setActiveStep((prevActiveStep) => prevActiveStep + 1);
@@ -53,8 +29,9 @@ export default function ExperimentSlider() {
   const handleStepChange = (step) => {
     setActiveStep(step);
   };
-  const materials = "1) Kodlama Modülü\n2) USB Kablosu\n3) Buzzer";
-  const navigate = useNavigate();
+
+  let fileExtention = currentExperiment.tutorials[activeStep].media;
+  console.log(fileExtention.slice(-3, -1));
   return (
     <Grid
       container
@@ -74,7 +51,7 @@ export default function ExperimentSlider() {
           alignItems: "center",
         }}
       >
-        {images.map((step, index) => (
+        {currentExperiment.tutorials.map((step, index) => (
           <Grid
             container
             sx={{
@@ -89,34 +66,24 @@ export default function ExperimentSlider() {
                 direction="row"
                 justifyContent="space-around"
                 alignItems="center"
-                // sx={{
-                //   pl: 2,
-                //   backgroundColor: "pink",
-                //   width: "100%",
-                //   height: "100%",
-                // }}
               >
                 <Grid item xs="6">
-                  <h3>Malzemeler</h3>
+                  <h3>{currentExperiment.tutorials[activeStep].title}</h3>
                   <Typography>
-                    <pre style={{ fontFamily: "inherit" }}>{materials}</pre>
+                    {currentExperiment.tutorials[activeStep].desc}
                   </Typography>
                 </Grid>
                 <Grid item xs="6">
-                  <ReactPlayer
-                    controls
-                    url="https://twinner.blob.core.windows.net/app/experiments/02.disko_topu/disko_topu_01.mp4"
-                    width="300px"
-                    height="200px"
-                  />
-                  {/* <ReactPlayer
-                    controls
-                    width="300px"
-                    height="200px"
-                    url={
-                      "https://twinner.blob.core.windows.net/app/experiments/02.disko_topu/disko_topu_01.mp4"
-                    }
-                  /> */}
+                  {fileExtention === "jp" ? (
+                    <img src={currentExperiment.tutorials[activeStep].media} />
+                  ) : (
+                    <ReactPlayer
+                      controls
+                      url={currentExperiment.tutorials[activeStep].media}
+                      width="300px"
+                      height="200px"
+                    />
+                  )}
                 </Grid>
               </Grid>
             ) : null}

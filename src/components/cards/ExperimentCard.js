@@ -6,9 +6,11 @@ import Typography from "@mui/material/Typography";
 import { Grid, Stack } from "@mui/material";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import SignalCellularAltIcon from "@mui/icons-material/SignalCellularAlt";
-import { useNavigate, NavLink } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import { useDispatch } from "react-redux/es/exports";
 import { routes } from "../../router/routeList";
 import ExperimentDetailList from "../../assets/json/experiments_v2_tr.json";
+import { updateCurrentExperiment } from "../../redux/actions/experimentSelection";
 
 export default function ExperimentCard({
   index,
@@ -19,18 +21,20 @@ export default function ExperimentCard({
   size = 4,
 }) {
   const navigate = useNavigate();
+  const dispatch = useDispatch();
   return (
     <Grid item xs={size}>
       <Card
         sx={{ mt: 1, ml: 1, mr: 1 }}
         onClick={() => {
-          console.log(ExperimentDetailList[index]);
+          // console.log(ExperimentDetailList[index]);
+          dispatch(updateCurrentExperiment(ExperimentDetailList[index]));
           navigate(routes.EXPERIMENT_DETAIL_PAGE);
         }}
       >
         <CardMedia
+          style={{ width: "100%", height: "100%", objectFit: "cover" }}
           component="img"
-          // height="140"
           image={imgSrc}
           alt="experiment-card"
         />
