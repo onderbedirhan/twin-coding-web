@@ -30,7 +30,13 @@ export default function ModuleCard({
         }}
       >
         <CardMedia
-          style={{ objectFit: "cover", maxHeight: 125, width: "100%" }}
+          style={{
+            objectFit: "cover",
+            maxHeight: 125,
+            width: "100%",
+            height: "100%",
+            minHeight: 125,
+          }}
           component="img"
           image={imgSrc}
           alt="kit-card"

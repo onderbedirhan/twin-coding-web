@@ -53,17 +53,19 @@ export default function ExperimentPage() {
   return (
     <Grid container>
       <ExperimentAppBar />
-      {Experiments.map((experimentCard) =>
-        compareTwoArray(experimentCard.requiredIds) ? (
-          <ExperimentCard
-            key={experimentCard.id}
-            title={experimentCard.title}
-            imgSrc={experimentCard.imageName}
-            duration={experimentCard.duration}
-            difficulty={selectDifficulty(experimentCard.difficulty)}
-          />
-        ) : null
-      )}
+      <Grid container sx={{ mt: 6 }}>
+        {Experiments.map((experimentCard) =>
+          compareTwoArray(experimentCard.requiredIds) ? (
+            <ExperimentCard
+              key={experimentCard.id}
+              title={experimentCard.title}
+              imgSrc={experimentCard.imageName}
+              duration={experimentCard.duration}
+              difficulty={selectDifficulty(experimentCard.difficulty)}
+            />
+          ) : null
+        )}
+      </Grid>
     </Grid>
   );
 }

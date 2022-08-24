@@ -11,15 +11,17 @@ export default function KitPage() {
   return (
     <Grid container>
       <ProductAppBar />
-      {cardList.map((kitCard) => (
-        <KitCard
-          key={kitCard.id}
-          title={kitCard.name}
-          imgSrc={baseUrl + kitCard.image}
-          id={kitCard.id}
-          checked={kitCard.checked}
-        />
-      ))}
+      <Grid container sx={{ mt: 5 }}>
+        {cardList.map((kitCard) => (
+          <KitCard
+            key={kitCard.id}
+            title={kitCard.name}
+            imgSrc={baseUrl + kitCard.image}
+            id={kitCard.id}
+            checked={kitCard.checked}
+          />
+        ))}
+      </Grid>
     </Grid>
   );
 }

@@ -11,15 +11,17 @@ export default function ModulePage() {
   return (
     <Grid container>
       <ProductAppBar />
-      {moduleList.map((moduleCard) => (
-        <ModuleCard
-          key={moduleCard.ids[0]}
-          title={moduleCard.name}
-          imgSrc={baseUrl + moduleCard.image}
-          id={moduleCard.ids[0]}
-          checked={moduleCard.checked}
-        />
-      ))}
+      <Grid container sx={{ mt: 5 }}>
+        {moduleList.map((moduleCard) => (
+          <ModuleCard
+            key={moduleCard.ids[0]}
+            title={moduleCard.name}
+            imgSrc={baseUrl + moduleCard.image}
+            id={moduleCard.ids[0]}
+            checked={moduleCard.checked}
+          />
+        ))}
+      </Grid>
     </Grid>
   );
 }
