@@ -6,10 +6,13 @@ import SwipeableViews from "react-swipeable-views";
 import { routes } from "../../router/routeList";
 import { useNavigate } from "react-router-dom";
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
-import { Fab, Grid } from "@mui/material";
+import { Fab, Grid, TextField } from "@mui/material";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import Typography from "@mui/material/Typography";
 import ReactPlayer from "react-player";
+import PlayCircleIcon from "@mui/icons-material/PlayCircle";
+import IconButton from "@mui/material/IconButton";
+import ExperimentDetailAppBar from "../../layout/appbars/ExperimentDetailAppBar";
 
 const images = [
   {
@@ -34,7 +37,7 @@ const images = [
   },
 ];
 
-function SwipeableTextMobileStepper() {
+export default function ExperimentSlider() {
   const theme = useTheme();
   const [activeStep, setActiveStep] = React.useState(0);
   const maxSteps = images.length;
@@ -50,88 +53,76 @@ function SwipeableTextMobileStepper() {
   const handleStepChange = (step) => {
     setActiveStep(step);
   };
-
+  const materials = "1) Kodlama Modülü\n2) USB Kablosu\n3) Buzzer";
   const navigate = useNavigate();
-
   return (
-    <Grid container>
-      <Grid container style={{ position: "fixed", top: 0 }}>
-        <Box sx={{ flexGrow: 1 }}>
-          <Paper
-            square
-            elevation={0}
+    <Grid
+      container
+      sx={{
+        width: "100%",
+        height: "100%",
+      }}
+    >
+      <SwipeableViews
+        axis={theme.direction === "rtl" ? "x-reverse" : "x"}
+        index={activeStep}
+        onChangeIndex={handleStepChange}
+        enableMouseEvents
+        style={{
+          width: "100%",
+          height: "100%",
+          alignItems: "center",
+        }}
+      >
+        {images.map((step, index) => (
+          <Grid
+            container
             sx={{
-              display: "flex",
-              alignItems: "center",
-              height: 50,
               pl: 2,
-              bgcolor: "background.default",
+              width: "100%",
+              height: "100%",
             }}
           >
-            <Fab
-              variant="extended"
-              size="small"
-              color="inherit"
-              aria-label="add"
-              onClick={() => navigate(routes.EXPERIMENT_PAGE)}
-            >
-              <ArrowBackIosNewIcon sx={{ mr: 1 }} />
-              Back
-            </Fab>
-          </Paper>
-          <SwipeableViews
-            axis={theme.direction === "rtl" ? "x-reverse" : "x"}
-            index={activeStep}
-            onChangeIndex={handleStepChange}
-            enableMouseEvents
-          >
-            {images.map((step, index) => (
-              <div key={step.label}>
-                {Math.abs(activeStep - index) <= 2 ? (
-                  // <Box
-                  //   component="img"
-                  //   sx={{
-                  //     height: "100%",
-                  //     display: "block",
-                  //     //   maxWidth: 400,
-                  //     maxHeight: 300,
-                  //     overflow: "hidden",
-                  //     width: "100%",
-                  //   }}
-                  //   src={step.imgPath}
-                  //   alt={step.label}
-                  // />
-
-                  <Grid
-                    container
-                    direction="row"
-                    justifyContent="space-around"
-                    alignItems="center"
-                  >
-                    <Grid item xs="4">
-                      <Typography variant="h6">Malzemeler</Typography>
-                      <Typography variant="h7">1- Makas</Typography>
-                      <Typography variant="h7">2- Makas</Typography>
-                      <Typography variant="h7">3- Makas</Typography>
-                      <Typography variant="h7">4- Makas</Typography>
-                    </Grid>
-                    <Grid item xs="8">
-                      <ReactPlayer
-                        controls
-                        width="300px"
-                        height="200px"
-                        url={
-                          "https://twinner.blob.core.windows.net/app/experiments/02.disko_topu/disko_topu_01.mp4"
-                        }
-                      />
-                    </Grid>
-                  </Grid>
-                ) : null}
-              </div>
-            ))}
-          </SwipeableViews>
-        </Box>
-      </Grid>
+            {Math.abs(activeStep - index) <= 2 ? (
+              <Grid
+                container
+                direction="row"
+                justifyContent="space-around"
+                alignItems="center"
+                // sx={{
+                //   pl: 2,
+                //   backgroundColor: "pink",
+                //   width: "100%",
+                //   height: "100%",
+                // }}
+              >
+                <Grid item xs="6">
+                  <h3>Malzemeler</h3>
+                  <Typography>
+                    <pre style={{ fontFamily: "inherit" }}>{materials}</pre>
+                  </Typography>
+                </Grid>
+                <Grid item xs="6">
+                  <ReactPlayer
+                    controls
+                    url="https://twinner.blob.core.windows.net/app/experiments/02.disko_topu/disko_topu_01.mp4"
+                    width="300px"
+                    height="200px"
+                  />
+                  {/* <ReactPlayer
+                    controls
+                    width="300px"
+                    height="200px"
+                    url={
+                      "https://twinner.blob.core.windows.net/app/experiments/02.disko_topu/disko_topu_01.mp4"
+                    }
+                  /> */}
+                </Grid>
+              </Grid>
+            ) : null}
+          </Grid>
+        ))}
+      </SwipeableViews>
 
       <Grid
         container
@@ -185,5 +176,3 @@ function SwipeableTextMobileStepper() {
     </Grid>
   );
 }
-
-export default SwipeableTextMobileStepper;

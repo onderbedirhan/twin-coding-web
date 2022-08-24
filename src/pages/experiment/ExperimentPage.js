@@ -5,6 +5,7 @@ import ExperimentCard from "../../components/cards/ExperimentCard";
 import { experimentCardList } from "../../components/cards/experimentCardList";
 import ExperimentAppBar from "../../layout/appbars/ExperimentAppBar";
 import Experiments from "../../assets/json/experiments_v2_tr.json";
+import ExperimentDetails from "../../assets/json/experiments_v2_tr.json";
 
 export default function ExperimentPage() {
   const cardList = useSelector((state) => state.kitSelection.value);
@@ -54,9 +55,10 @@ export default function ExperimentPage() {
     <Grid container>
       <ExperimentAppBar />
       <Grid container sx={{ mt: 6 }}>
-        {Experiments.map((experimentCard) =>
+        {Experiments.map((experimentCard, index) =>
           compareTwoArray(experimentCard.requiredIds) ? (
             <ExperimentCard
+              index={index}
               key={experimentCard.id}
               title={experimentCard.title}
               imgSrc={experimentCard.imageName}

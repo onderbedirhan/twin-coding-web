@@ -8,8 +8,10 @@ import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import SignalCellularAltIcon from "@mui/icons-material/SignalCellularAlt";
 import { useNavigate, NavLink } from "react-router-dom";
 import { routes } from "../../router/routeList";
+import ExperimentDetailList from "../../assets/json/experiments_v2_tr.json";
 
 export default function ExperimentCard({
+  index,
   title,
   duration,
   difficulty,
@@ -22,6 +24,7 @@ export default function ExperimentCard({
       <Card
         sx={{ mt: 1, ml: 1, mr: 1 }}
         onClick={() => {
+          console.log(ExperimentDetailList[index]);
           navigate(routes.EXPERIMENT_DETAIL_PAGE);
         }}
       >
