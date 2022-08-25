@@ -7,7 +7,7 @@ import { routes } from "../../router/routeList";
 export default function ExperimentDetailAppBar() {
   const navigate = useNavigate();
   return (
-    <AppBar color="inherit" position="static">
+    <AppBar color="inherit" position="static" sx={{ mb: 2 }}>
       <Container maxWidth="xl" sx={{ mt: 1, mb: 1 }}>
         <Stack
           direction="row"

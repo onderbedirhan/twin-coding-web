@@ -30,8 +30,11 @@ export default function ExperimentSlider() {
     setActiveStep(step);
   };
 
-  let fileExtention = currentExperiment.tutorials[activeStep].media;
-  console.log(fileExtention.slice(-3, -1));
+  let fileExtention = currentExperiment.tutorials[activeStep].media.slice(
+    -3,
+    -1
+  );
+
   return (
     <Grid
       container
@@ -58,6 +61,7 @@ export default function ExperimentSlider() {
               pl: 2,
               width: "100%",
               height: "100%",
+              alignItems: "center",
             }}
           >
             {Math.abs(activeStep - index) <= 2 ? (
@@ -67,22 +71,32 @@ export default function ExperimentSlider() {
                 justifyContent="space-around"
                 alignItems="center"
               >
-                <Grid item xs="6">
+                <Grid item xs="5">
                   <h3>{currentExperiment.tutorials[activeStep].title}</h3>
-                  <Typography>
+                  <br />
+                  <Typography style={{ whiteSpace: "pre-line" }}>
                     {currentExperiment.tutorials[activeStep].desc}
                   </Typography>
                 </Grid>
-                <Grid item xs="6">
+                <Grid item xs="7">
                   {fileExtention === "jp" ? (
-                    <img src={currentExperiment.tutorials[activeStep].media} />
+                    <div className="player-wrapper">
+                      <img
+                        className="react-player"
+                        src={currentExperiment.tutorials[activeStep].media}
+                        style={{ width: "100%", height: "100%" }}
+                      />
+                    </div>
                   ) : (
-                    <ReactPlayer
-                      controls
-                      url={currentExperiment.tutorials[activeStep].media}
-                      width="300px"
-                      height="200px"
-                    />
+                    <div className="player-wrapper">
+                      <ReactPlayer
+                        controls
+                        className="react-player"
+                        url={currentExperiment.tutorials[activeStep].media}
+                        width="90%"
+                        height="90%"
+                      />
+                    </div>
                   )}
                 </Grid>
               </Grid>
