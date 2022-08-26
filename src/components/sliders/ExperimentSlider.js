@@ -79,7 +79,7 @@ export default function ExperimentSlider() {
                   </Typography>
                 </Grid>
                 <Grid item xs="7">
-                  {fileExtention === "jp" ? (
+                  {fileExtention === "pe" ? (
                     <div className="player-wrapper">
                       <img
                         alt={currentExperiment.tutorials[activeStep].media}
