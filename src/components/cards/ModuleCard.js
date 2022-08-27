@@ -6,14 +6,7 @@ import { Grid } from "@mui/material";
 import { useDispatch } from "react-redux/es/exports";
 import { moduleToggle } from "../../redux/actions/moduleSelection";
 
-export default function ModuleCard({
-  title,
-  imgSrc,
-  size = 4,
-  checked,
-  id,
-  toggleSelection,
-}) {
+export default function ModuleCard({ title, imgSrc, size = 4, checked, id }) {
   const dispatch = useDispatch();
 
   return (

@@ -27,7 +27,6 @@ export default function ExperimentCard({
       <Card
         sx={{ mt: 1, ml: 1, mr: 1, borderRadius: 4 }}
         onClick={() => {
-          // console.log(ExperimentDetailList[index]);
           dispatch(updateCurrentExperiment(ExperimentDetailList[index]));
           navigate(routes.EXPERIMENT_DETAIL_PAGE);
         }}

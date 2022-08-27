@@ -4,16 +4,9 @@ import CardMedia from "@mui/material/CardMedia";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import { Grid } from "@mui/material";
 import { kitToggle } from "../../redux/actions/kitSelection";
-import { useSelector, useDispatch } from "react-redux/es/exports";
+import { useDispatch } from "react-redux/es/exports";
 
-export default function KitCard({
-  title,
-  imgSrc,
-  size = 4,
-  checked,
-  id,
-  toggleSelection,
-}) {
+export default function KitCard({ title, imgSrc, size = 4, checked, id }) {
   const dispatch = useDispatch();
 
   return (
