@@ -25,7 +25,7 @@ export default function ExperimentCard({
   return (
     <Grid item xs={size}>
       <Card
-        sx={{ mt: 1, ml: 1, mr: 1 }}
+        sx={{ mt: 1, ml: 1, mr: 1, borderRadius: 4 }}
         onClick={() => {
           // console.log(ExperimentDetailList[index]);
           dispatch(updateCurrentExperiment(ExperimentDetailList[index]));
@@ -33,13 +33,18 @@ export default function ExperimentCard({
         }}
       >
         <CardMedia
-          style={{ width: "100%", height: "100%", objectFit: "cover" }}
+          style={{
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+            maxHeight: "160px",
+          }}
           component="img"
           image={imgSrc}
           alt="experiment-card"
         />
         <CardContent>
-          <Typography gutterBottom variant="h6" component="div">
+          <Typography gutterBottom variant="h7" component="div">
             {title}
           </Typography>
           <Stack
@@ -50,7 +55,11 @@ export default function ExperimentCard({
           >
             <Stack direction="row" alignItems="center">
               <AccessTimeIcon />
-              <Typography variant="body2" color="text.secondary">
+              <Typography
+                variant="body2"
+                color="text.secondary"
+                marginLeft="2px"
+              >
                 {duration}
               </Typography>
             </Stack>

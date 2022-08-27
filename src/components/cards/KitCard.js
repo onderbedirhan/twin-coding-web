@@ -32,10 +32,11 @@ export default function KitCard({
       >
         <CardMedia
           style={{
-            objectFit: "cover",
-            width: "80%",
-            height: "80%",
-            maxHeight: 250,
+            objectFit: "contain",
+            width: "100%",
+            height: "100%",
+            maxHeight: 140,
+            paddingBottom: 5,
           }}
           component="img"
           image={imgSrc}

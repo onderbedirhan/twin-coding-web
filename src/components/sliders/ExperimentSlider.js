@@ -79,23 +79,23 @@ export default function ExperimentSlider() {
                   </Typography>
                 </Grid>
                 <Grid item xs="7">
-                  {fileExtention === "pe" ? (
-                    <div className="player-wrapper">
-                      <img
-                        alt={currentExperiment.tutorials[activeStep].media}
-                        className="react-player"
-                        src={currentExperiment.tutorials[activeStep].media}
-                        style={{ width: "90%", height: "90%" }}
-                      />
-                    </div>
-                  ) : (
+                  {fileExtention === "mp" ? (
                     <div className="player-wrapper">
                       <ReactPlayer
                         controls
                         className="react-player"
                         url={currentExperiment.tutorials[activeStep].media}
-                        width="90%"
-                        height="90%"
+                        width="80%"
+                        height="80%"
+                      />
+                    </div>
+                  ) : (
+                    <div className="player-wrapper">
+                      <img
+                        alt={currentExperiment.tutorials[activeStep].media}
+                        className="react-player"
+                        src={currentExperiment.tutorials[activeStep].media}
+                        style={{ width: "80%", height: "80%" }}
                       />
                     </div>
                   )}

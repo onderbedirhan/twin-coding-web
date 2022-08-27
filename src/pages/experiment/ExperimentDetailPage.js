@@ -1,5 +1,6 @@
 import { Grid } from "@mui/material";
 import React from "react";
+import ProgressBar from "../../components/progressbar/ProgressBar";
 import ExperimentSlider from "../../components/sliders/ExperimentSlider";
 import ExperimentDetailAppBar from "../../layout/appbars/ExperimentDetailAppBar";
 

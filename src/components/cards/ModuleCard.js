@@ -31,15 +31,17 @@ export default function ModuleCard({
       >
         <CardMedia
           style={{
-            objectFit: "cover",
-            width: "80%",
-            height: "80%",
-            maxHeight: 250,
+            objectFit: "contain",
+            width: "100%",
+            height: "100%",
+            maxHeight: 100,
+            paddingBottom: 5,
           }}
           component="img"
           image={imgSrc}
           alt="kit-card"
         />
+
         <CardContent
           sx={{
             backgroundColor: checked ? "#00FFDA" : "white",
