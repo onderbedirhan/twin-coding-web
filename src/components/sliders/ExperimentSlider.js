@@ -1,34 +1,17 @@
 import * as React from "react";
 import { useTheme } from "@mui/material/styles";
 import SwipeableViews from "react-swipeable-views";
-import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
-import { Fab, Grid } from "@mui/material";
-import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import { Grid } from "@mui/material";
 import Typography from "@mui/material/Typography";
 import ReactPlayer from "react-player";
-import { useSelector } from "react-redux/es/exports";
 
-export default function ExperimentSlider() {
-  const currentExperiment = useSelector(
-    (state) => state.experimentSelection.value
-  );
-  const maxSteps = currentExperiment.tutorials.length;
-
+export default function ExperimentSlider({
+  currentExperiment,
+  maxSteps,
+  activeStep,
+  handleStepChange,
+}) {
   const theme = useTheme();
-
-  const [activeStep, setActiveStep] = React.useState(0);
-
-  const handleNext = () => {
-    setActiveStep((prevActiveStep) => prevActiveStep + 1);
-  };
-
-  const handleBack = () => {
-    setActiveStep((prevActiveStep) => prevActiveStep - 1);
-  };
-
-  const handleStepChange = (step) => {
-    setActiveStep(step);
-  };
 
   let fileExtention = currentExperiment.tutorials[activeStep].media.slice(
     -3,
@@ -41,6 +24,7 @@ export default function ExperimentSlider() {
       sx={{
         width: "100%",
         height: "100%",
+        position: "fixed",
       }}
     >
       <SwipeableViews
@@ -48,11 +32,6 @@ export default function ExperimentSlider() {
         index={activeStep}
         onChangeIndex={handleStepChange}
         enableMouseEvents
-        style={{
-          width: "100%",
-          height: "100%",
-          alignItems: "center",
-        }}
       >
         {currentExperiment.tutorials.map((step, index) => (
           <Grid
@@ -71,14 +50,14 @@ export default function ExperimentSlider() {
                 justifyContent="space-around"
                 alignItems="center"
               >
-                <Grid item xs="5">
+                <Grid item xs="4">
                   <h3>{currentExperiment.tutorials[activeStep].title}</h3>
                   <br />
-                  <Typography style={{ whiteSpace: "pre-line" }}>
+                  <div style={{ whiteSpace: "pre-line" }}>
                     {currentExperiment.tutorials[activeStep].desc}
-                  </Typography>
+                  </div>
                 </Grid>
-                <Grid item xs="7">
+                <Grid item xs="8" sx={{ padding: 1 }}>
                   {fileExtention === "mp" ? (
                     <div className="player-wrapper">
                       <ReactPlayer
@@ -105,56 +84,6 @@ export default function ExperimentSlider() {
           </Grid>
         ))}
       </SwipeableViews>
-
-      <Grid
-        container
-        sx={{
-          justifyContent: "space-between",
-          alignItems: "center",
-          mr: 0,
-          ml: 0,
-        }}
-        style={{ position: "fixed", bottom: 0, backgroundColor: "#00FFDA" }}
-      >
-        <Grid item sx={{ ml: 2, mt: 1, mb: 1, color: "white" }}>
-          <h3>Start</h3>
-        </Grid>
-        <Grid item sx={{ mt: 1, mb: 1, color: "white" }}>
-          <h3>
-            {activeStep + 1}/{maxSteps}
-          </h3>
-        </Grid>
-
-        {
-          <Grid item sx={{ mt: 1, mb: 1, mr: 2, ml: 2 }}>
-            {activeStep !== 0 ? (
-              <Fab
-                variant="extended"
-                size="small"
-                color="inherit"
-                aria-label="add"
-                sx={{ mr: 1 }}
-                onClick={handleBack}
-              >
-                <ArrowBackIosNewIcon sx={{ mr: 1 }} />
-                Back
-              </Fab>
-            ) : null}
-            {activeStep !== maxSteps - 1 ? (
-              <Fab
-                variant="extended"
-                size="small"
-                color="inherit"
-                aria-label="add"
-                onClick={handleNext}
-              >
-                <ArrowForwardIosIcon sx={{ mr: 1 }} />
-                Next
-              </Fab>
-            ) : null}
-          </Grid>
-        }
-      </Grid>
     </Grid>
   );
 }

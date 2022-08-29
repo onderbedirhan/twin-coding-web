@@ -36,7 +36,7 @@ export default function ExperimentCard({
             width: "100%",
             height: "100%",
             objectFit: "cover",
-            maxHeight: "160px",
+            maxHeight: "140px",
           }}
           component="img"
           image={imgSrc}
