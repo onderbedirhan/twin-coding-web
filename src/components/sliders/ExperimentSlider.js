@@ -74,7 +74,7 @@ export default function ExperimentSlider({
                         alt={currentExperiment.tutorials[activeStep].media}
                         className="react-player"
                         src={currentExperiment.tutorials[activeStep].media}
-                        style={{ width: "80%", height: "80%" }}
+                        style={{ width: "100%", height: "100%" }}
                       />
                     </div>
                   )}

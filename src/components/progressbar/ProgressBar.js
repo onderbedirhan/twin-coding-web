@@ -24,30 +24,34 @@ export default function ProgressBar({
         position: "fixed",
         bottom: 0,
         padding: 1,
-        backgroundColor: "lightblue",
+        // backgroundColor: "lightblue",
       }}
     >
       <Grid
         container
         item
         xs="9"
-        sx={{
-          alignItems: "center",
-          justifyContent: "center",
-          // border: 2,
-          // borderRadius: 2,
-          // backgroundColor: "red",
-        }}
+        sx={
+          {
+            // alignItems: "center",
+            // justifyContent: "center",
+            // border: 2,
+            // borderRadius: 2,
+            // backgroundColor: "red",
+          }
+        }
       >
         {[...Array(maxSteps - 1)].map((elementInArray, index) => (
           <Grid
             item
-            justifyContent="center"
             xs={12 / (maxSteps - 1)}
             sx={{
               backgroundColor: changeColor(index),
-              border: 2,
-              borderRadius: 2,
+              borderTopLeftRadius: index === 0 ? 10 : 0,
+              borderTopRightRadius: index === maxSteps - 2 ? 10 : 0,
+              borderBottomLeftRadius: index === 0 ? 10 : 0,
+              borderBottomRightRadius: index === maxSteps - 2 ? 10 : 0,
+              border: 1,
               minHeight: "20px",
             }}
           ></Grid>
