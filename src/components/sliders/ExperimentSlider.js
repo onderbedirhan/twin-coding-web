@@ -69,12 +69,13 @@ export default function ExperimentSlider({
                       />
                     </div>
                   ) : (
-                    <div className="player-wrapper">
+                    <div>
                       <img
+                        className="experiment-image"
                         alt={currentExperiment.tutorials[activeStep].media}
-                        className="react-player"
+                        // className="react-player"
                         src={currentExperiment.tutorials[activeStep].media}
-                        style={{ width: "100%", height: "100%" }}
+                        style={{ width: "80%", height: "80%" }}
                       />
                     </div>
                   )}
