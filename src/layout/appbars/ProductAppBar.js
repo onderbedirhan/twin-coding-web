@@ -1,16 +1,16 @@
 import React from "react";
-import { AppBar, Container, Stack, Fab, Grid } from "@mui/material";
+import { AppBar, Container, Stack, Fab } from "@mui/material";
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import { useNavigate, NavLink } from "react-router-dom";
 import { routes } from "../../router/routeList";
 import { useSelector } from "react-redux/es/exports";
 
-export default function ProductAppBar() {
+const ProductAppBar = () => {
   const kitList = useSelector((state) => state.kitSelection.value);
   const moduleList = useSelector((state) => state.moduleSelection.value);
   const navigate = useNavigate();
   return (
-    <AppBar color="inherit" position="fixed">
+    <AppBar color="inherit" position="static">
       <Container maxWidth="xl" sx={{ mt: 1, mb: 1 }}>
         <Stack
           direction="row"
@@ -92,4 +92,6 @@ export default function ProductAppBar() {
       </Container>
     </AppBar>
   );
-}
+};
+
+export default ProductAppBar;

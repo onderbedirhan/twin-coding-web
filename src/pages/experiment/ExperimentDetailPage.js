@@ -1,12 +1,10 @@
-import { Grid } from "@mui/material";
 import React from "react";
 import ExperimentSlider from "../../components/sliders/ExperimentSlider";
 import ExperimentDetailAppBar from "../../layout/appbars/ExperimentDetailAppBar";
 import { useSelector } from "react-redux/es/exports";
-import ExperimentDetailBottomBar from "../../layout/bottombar/ExperimentDetailBottomBar";
 import ProgressBar from "../../components/progressbar/ProgressBar";
 
-export default function ExperimentDetailPage() {
+const ExperimentDetailPage = () => {
   const currentExperiment = useSelector(
     (state) => state.experimentSelection.value
   );
@@ -44,4 +42,6 @@ export default function ExperimentDetailPage() {
       />
     </>
   );
-}
+};
+
+export default ExperimentDetailPage;

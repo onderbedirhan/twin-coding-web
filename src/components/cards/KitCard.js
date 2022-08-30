@@ -6,48 +6,48 @@ import { Grid } from "@mui/material";
 import { kitToggle } from "../../redux/actions/kitSelection";
 import { useDispatch } from "react-redux/es/exports";
 
-export default function KitCard({ title, imgSrc, size = 4, checked, id }) {
+const KitCard = ({ title, imgSrc, checked, id }) => {
   const dispatch = useDispatch();
 
   return (
-    <Grid item xs={size}>
-      <Card
-        key={id}
-        sx={{
-          mt: 2,
-          ml: 2,
-          mr: 2,
-          borderRadius: 4,
+    <Card
+      key={id}
+      sx={{
+        mt: 2,
+        ml: 2,
+        mr: 2,
+        borderRadius: 4,
+      }}
+      onClick={() => {
+        dispatch(kitToggle(id));
+      }}
+    >
+      <CardMedia
+        style={{
+          objectFit: "contain",
+          width: "100%",
+          height: "100%",
+          maxHeight: 140,
+          paddingBottom: 5,
         }}
-        onClick={() => {
-          dispatch(kitToggle(id));
+        component="img"
+        image={imgSrc}
+        alt="kit-card"
+      />
+      <CardContent
+        sx={{
+          backgroundColor: checked ? "#00FFDA" : "white",
         }}
       >
-        <CardMedia
-          style={{
-            objectFit: "contain",
-            width: "100%",
-            height: "100%",
-            maxHeight: 140,
-            paddingBottom: 5,
-          }}
-          component="img"
-          image={imgSrc}
-          alt="kit-card"
-        />
-        <CardContent
-          sx={{
-            backgroundColor: checked ? "#00FFDA" : "white",
-          }}
-        >
-          <Grid container justifyContent={"space-between"}>
-            <Grid item>{title}</Grid>
-            <Grid item>
-              {checked ? <CheckCircleIcon sx={{ color: "white" }} /> : null}
-            </Grid>
+        <Grid container justifyContent={"space-between"}>
+          <Grid item>{title}</Grid>
+          <Grid item>
+            {checked ? <CheckCircleIcon sx={{ color: "white" }} /> : null}
           </Grid>
-        </CardContent>
-      </Card>
-    </Grid>
+        </Grid>
+      </CardContent>
+    </Card>
   );
-}
+};
+
+export default KitCard;

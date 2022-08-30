@@ -9,17 +9,14 @@ import { updateKitCardList } from "../redux/actions/kitSelection";
 import { updateModuleCardList } from "../redux/actions/moduleSelection";
 import ExperimentDetailPage from "../pages/experiment/ExperimentDetailPage";
 
-export default function AppRouter() {
+const AppRouter = () => {
   const dispatch = useDispatch();
-
-  const cardList = useSelector((state) => state.kitSelection.value);
-  const moduleList = useSelector((state) => state.moduleSelection.value);
+  const kitData = localStorage.getItem("kits");
+  const kitParsedData = JSON.parse(kitData);
+  const moduleData = localStorage.getItem("modules");
+  const moduleParsedData = JSON.parse(moduleData);
 
   useEffect(() => {
-    const kitData = localStorage.getItem("kits");
-    const kitParsedData = JSON.parse(kitData);
-    const moduleData = localStorage.getItem("modules");
-    const moduleParsedData = JSON.parse(moduleData);
     if (kitParsedData != null) {
       dispatch(updateKitCardList(kitParsedData));
     }
@@ -34,7 +31,7 @@ export default function AppRouter() {
         <Route
           path={routes.HOME_PAGE}
           element={
-            cardList != null || moduleList != null ? (
+            kitData != null || moduleData != null ? (
               <ExperimentPage />
             ) : (
               <KitPage />
@@ -51,4 +48,6 @@ export default function AppRouter() {
       </Routes>
     </BrowserRouter>
   );
-}
+};
+
+export default AppRouter;

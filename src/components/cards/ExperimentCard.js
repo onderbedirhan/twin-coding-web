@@ -12,14 +12,14 @@ import { routes } from "../../router/routeList";
 import ExperimentDetailList from "../../assets/json/experiments_v2_tr.json";
 import { updateCurrentExperiment } from "../../redux/actions/experimentSelection";
 
-export default function ExperimentCard({
+const ExperimentCard = ({
   index,
   title,
   duration,
   difficulty,
   imgSrc,
   size = 4,
-}) {
+}) => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   return (
@@ -73,4 +73,6 @@ export default function ExperimentCard({
       </Card>
     </Grid>
   );
-}
+};
+
+export default ExperimentCard;

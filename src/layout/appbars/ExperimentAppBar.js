@@ -3,10 +3,11 @@ import { AppBar, Container, Stack, Fab } from "@mui/material";
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import { useNavigate } from "react-router-dom";
 import { routes } from "../../router/routeList";
-export default function ExperimentAppBar() {
+
+const ExperimentAppBar = () => {
   const navigate = useNavigate();
   return (
-    <AppBar color="inherit" style={{ position: "fixed", top: 0 }}>
+    <AppBar color="inherit" position="static">
       <Container maxWidth="xl" sx={{ mt: 1, mb: 1 }}>
         <Stack
           direction="row"
@@ -47,4 +48,6 @@ export default function ExperimentAppBar() {
       </Container>
     </AppBar>
   );
-}
+};
+
+export default ExperimentAppBar;

@@ -4,9 +4,8 @@ import { useSelector } from "react-redux/es/exports";
 import ExperimentCard from "../../components/cards/ExperimentCard";
 import ExperimentAppBar from "../../layout/appbars/ExperimentAppBar";
 import Experiments from "../../assets/json/experiments_v2_tr.json";
-import ExperimentDetails from "../../assets/json/experiments_v2_tr.json";
 
-export default function ExperimentPage() {
+const ExperimentPage = () => {
   const cardList = useSelector((state) => state.kitSelection.value);
   const moduleList = useSelector((state) => state.moduleSelection.value);
   const sampleList = [];
@@ -53,7 +52,7 @@ export default function ExperimentPage() {
   return (
     <Grid container>
       <ExperimentAppBar />
-      <Grid container sx={{ mt: 6 }}>
+      <Grid container>
         {Experiments.map((experimentCard, index) =>
           compareTwoArray(experimentCard.requiredIds) ? (
             <ExperimentCard
@@ -69,4 +68,6 @@ export default function ExperimentPage() {
       </Grid>
     </Grid>
   );
-}
+};
+
+export default ExperimentPage;
