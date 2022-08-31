@@ -1,8 +1,9 @@
 import React from "react";
-import { AppBar, Container, Stack, Fab } from "@mui/material";
-import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
+import { AppBar, Container, Stack } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import { routes } from "../../router/routeList";
+import BackButton from "../../components/buttons/BackButton";
+import NavigatorButton from "../../components/buttons/NavigatorButton";
 
 const ExperimentAppBar = () => {
   const navigate = useNavigate();
@@ -15,16 +16,7 @@ const ExperimentAppBar = () => {
           alignItems="center"
           spacing={2}
         >
-          <Fab
-            variant="extended"
-            size="small"
-            color="inherit"
-            aria-label="add"
-            onClick={() => navigate("/")}
-          >
-            <ArrowBackIosNewIcon sx={{ mr: 1 }} />
-            Back
-          </Fab>
+          <BackButton onClick={() => navigate("/")} />
           <Stack
             direction="row"
             justifyContent="center"
@@ -33,17 +25,12 @@ const ExperimentAppBar = () => {
           >
             EXPERIMENTS
           </Stack>
-          <Fab
-            variant="extended"
-            size="small"
-            aria-label="add"
-            style={{ backgroundColor: "#00FFDA", color: "white" }}
+          <NavigatorButton
+            buttonText="KITS"
             onClick={() => {
               navigate(routes.KIT_PAGE);
             }}
-          >
-            KITS
-          </Fab>
+          />
         </Stack>
       </Container>
     </AppBar>

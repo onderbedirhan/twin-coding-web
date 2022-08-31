@@ -13,7 +13,7 @@ const KitPage = () => {
       <Grid container>
         
         {cardList.map((kitCard) => (
-          <Grid item xs="4">
+          <Grid item xs="4" key={kitCard.id}>
           <KitCard
             key={kitCard.id}
             title={kitCard.name}

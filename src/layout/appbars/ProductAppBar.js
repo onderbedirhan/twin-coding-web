@@ -1,9 +1,10 @@
 import React from "react";
-import { AppBar, Container, Stack, Fab } from "@mui/material";
-import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
+import { AppBar, Container, Stack } from "@mui/material";
 import { useNavigate, NavLink } from "react-router-dom";
 import { routes } from "../../router/routeList";
 import { useSelector } from "react-redux/es/exports";
+import BackButton from "../../components/buttons/BackButton";
+import NavigatorButton from "../../components/buttons/NavigatorButton";
 
 const ProductAppBar = () => {
   const kitList = useSelector((state) => state.kitSelection.value);
@@ -18,16 +19,7 @@ const ProductAppBar = () => {
           alignItems="flex-start"
           spacing={2}
         >
-          <Fab
-            variant="extended"
-            size="small"
-            color="inherit"
-            aria-label="add"
-            onClick={() => navigate("/")}
-          >
-            <ArrowBackIosNewIcon sx={{ mr: 1 }} />
-            Back
-          </Fab>
+          <BackButton onClick={() => navigate("/")} />
           <Stack
             direction="row"
             justifyContent="center"
@@ -75,19 +67,14 @@ const ProductAppBar = () => {
               Modules
             </NavLink>
           </Stack>
-          <Fab
-            variant="extended"
-            size="small"
-            aria-label="add"
-            style={{ backgroundColor: "#00FFDA", color: "white" }}
+          <NavigatorButton
+            buttonText="CHOOSE"
             onClick={() => {
               navigate(routes.EXPERIMENT_PAGE);
               localStorage.setItem("kits", JSON.stringify(kitList));
               localStorage.setItem("modules", JSON.stringify(moduleList));
             }}
-          >
-            CHOOSE
-          </Fab>
+          />
         </Stack>
       </Container>
     </AppBar>

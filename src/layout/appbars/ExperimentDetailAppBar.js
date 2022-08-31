@@ -1,8 +1,8 @@
 import React from "react";
-import { AppBar, Container, Stack, Fab } from "@mui/material";
-import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
+import { AppBar, Container, Stack } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import { routes } from "../../router/routeList";
+import BackButton from "../../components/buttons/BackButton";
 
 const ExperimentDetailAppBar = () => {
   const navigate = useNavigate();
@@ -15,18 +15,11 @@ const ExperimentDetailAppBar = () => {
           alignItems="center"
           spacing={2}
         >
-          <Fab
-            variant="extended"
-            size="small"
-            color="inherit"
-            aria-label="add"
+          <BackButton
             onClick={() => {
               navigate(routes.EXPERIMENT_PAGE);
             }}
-          >
-            <ArrowBackIosNewIcon sx={{ mr: 1 }} />
-            Back
-          </Fab>
+          />
         </Stack>
       </Container>
     </AppBar>
