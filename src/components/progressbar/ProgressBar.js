@@ -5,8 +5,12 @@ import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import Stepper from "@mui/material/Stepper";
 import Step from "@mui/material/Step";
 import StepLabel from "@mui/material/StepLabel";
+import NavigatorButton from "../buttons/NavigatorButton";
+import { useNavigate } from "react-router-dom";
+import { routes } from "../../router/routeList";
 
 const ProgressBar = ({ activeStep, maxSteps, handleBack, handleNext }) => {
+  const navigate = useNavigate();
   return (
     <Grid
       container
@@ -35,28 +39,41 @@ const ProgressBar = ({ activeStep, maxSteps, handleBack, handleNext }) => {
         </div>
       </Grid>
       <Grid container item xs={3} sx={{ justifyContent: "end" }}>
-        <Fab
-          variant="extended"
-          size="small"
-          color="inherit"
-          aria-label="add"
-          disabled={activeStep !== 0 ? false : true}
-          sx={{ mr: 1 }}
-          onClick={handleBack}
-        >
-          <ArrowBackIosNewIcon />
-        </Fab>
+        {activeStep !== maxSteps - 1 ? (
+          <>
+            <Fab
+              variant="extended"
+              size="small"
+              color="inherit"
+              aria-label="add"
+              disabled={activeStep !== 0 ? false : true}
+              sx={{ mr: 1 }}
+              onClick={handleBack}
+            >
+              <ArrowBackIosNewIcon />
+            </Fab>
 
-        <Fab
-          variant="extended"
-          size="small"
-          color="inherit"
-          aria-label="add"
-          disabled={activeStep !== maxSteps - 1 ? false : true}
-          onClick={handleNext}
-        >
-          <ArrowForwardIosIcon />
-        </Fab>
+            <Fab
+              variant="extended"
+              size="small"
+              color="inherit"
+              aria-label="add"
+              disabled={activeStep !== maxSteps - 1 ? false : true}
+              onClick={handleNext}
+            >
+              <ArrowForwardIosIcon />
+            </Fab>
+          </>
+        ) : (
+          <Fab
+            variant="extended"
+            size="small"
+            buttonText="Finish"
+            onClick={() => navigate(routes.EXPERIMENT_PAGE)}
+          >
+            Finish
+          </Fab>
+        )}
       </Grid>
     </Grid>
   );

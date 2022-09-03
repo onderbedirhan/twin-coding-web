@@ -5,6 +5,7 @@ import { routes } from "../../router/routeList";
 import { useSelector } from "react-redux/es/exports";
 import BackButton from "../../components/buttons/BackButton";
 import NavigatorButton from "../../components/buttons/NavigatorButton";
+import twinColors from "../../assets/colors/colors";
 
 const ProductAppBar = () => {
   const kitList = useSelector((state) => state.kitSelection.value);
@@ -33,7 +34,7 @@ const ProductAppBar = () => {
                       // color: "#00FFDA",
                       fontWeight: "bold",
                       fontSize: "25px",
-                      textDecorationColor: "#00FFDA",
+                      textDecorationColor: twinColors.activeColor,
                       color: "#000000",
                     }
                   : {
@@ -53,7 +54,7 @@ const ProductAppBar = () => {
                       // color: "#00FFDA",
                       fontWeight: "bold",
                       fontSize: "25px",
-                      textDecorationColor: "#00FFDA",
+                      textDecorationColor: twinColors.activeColor,
                       color: "#000000",
                     }
                   : {

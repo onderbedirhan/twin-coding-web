@@ -1,5 +1,6 @@
 import React from "react";
 import { Fab } from "@mui/material";
+import twinColors from "../../assets/colors/colors";
 
 const NavigatorButton = ({ onClick, buttonText }) => {
   return (
@@ -7,7 +8,7 @@ const NavigatorButton = ({ onClick, buttonText }) => {
       variant="extended"
       size="small"
       aria-label="add"
-      style={{ backgroundColor: "#00FFDA", color: "white" }}
+      style={{ backgroundColor: twinColors.activeColor, color: "white" }}
       onClick={onClick}
     >
       {buttonText}

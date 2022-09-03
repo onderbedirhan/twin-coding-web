@@ -37,16 +37,15 @@ const KitCard = ({ title, imgSrc, checked, id }) => {
       />
       <CardContent
         sx={{
-          backgroundColor: checked ? twinColors.activeColor : "white",
+          backgroundColor: checked
+            ? twinColors.activeColor
+            : twinColors.passiveColor,
         }}
       >
         <Grid container justifyContent={"space-between"}>
           <Grid item>{title}</Grid>
           <Grid item>
-            <CheckCircleIcon
-              disabled={checked ? false : true}
-              sx={{ color: "white" }}
-            />
+            {checked ? <CheckCircleIcon sx={{ color: "white" }} /> : null}
           </Grid>
         </Grid>
       </CardContent>

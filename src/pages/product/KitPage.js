@@ -3,7 +3,6 @@ import React from "react";
 import KitCard from "../../components/cards/KitCard";
 import { useSelector } from "react-redux/es/exports";
 import ProductLayout from "../../layout/ProductLayout";
-import twinColors from "../../assets/colors/colors";
 
 const KitPage = () => {
   const cardList = useSelector((state) => state.kitSelection.value);
