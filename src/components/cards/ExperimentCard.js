@@ -12,66 +12,54 @@ import { routes } from "../../router/routeList";
 import ExperimentDetailList from "../../assets/json/experiments_v2_tr.json";
 import { updateCurrentExperiment } from "../../redux/actions/experimentSelection";
 
-const ExperimentCard = ({
-  index,
-  title,
-  duration,
-  difficulty,
-  imgSrc,
-  size = 4,
-}) => {
+const ExperimentCard = ({ index, title, duration, difficulty, imgSrc }) => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
+
   return (
-    <Grid item xs={size}>
-      <Card
-        sx={{ mt: 1, ml: 1, mr: 1, borderRadius: 4 }}
-        onClick={() => {
-          dispatch(updateCurrentExperiment(ExperimentDetailList[index]));
-          navigate(routes.EXPERIMENT_DETAIL_PAGE);
+    <Card
+      sx={{ mt: 2, ml: 2, mr: 2, borderRadius: 4 }}
+      onClick={() => {
+        dispatch(updateCurrentExperiment(ExperimentDetailList[index]));
+        navigate(routes.EXPERIMENT_DETAIL_PAGE);
+      }}
+    >
+      <CardMedia
+        component="img"
+        image={imgSrc}
+        alt="experiment-card"
+        style={{
+          width: "100%",
+          height: "100%",
+          objectFit: "cover",
+          maxHeight: "140px",
         }}
-      >
-        <CardMedia
-          style={{
-            width: "100%",
-            height: "100%",
-            objectFit: "cover",
-            maxHeight: "140px",
-          }}
-          component="img"
-          image={imgSrc}
-          alt="experiment-card"
-        />
-        <CardContent>
-          <Typography gutterBottom variant="h7" component="div">
-            {title}
-          </Typography>
-          <Stack
-            direction="row"
-            justifyContent="space-between"
-            alignItems="center"
-            spacing={2}
-          >
-            <Stack direction="row" alignItems="center">
-              <AccessTimeIcon />
-              <Typography
-                variant="body2"
-                color="text.secondary"
-                marginLeft="2px"
-              >
-                {duration}
-              </Typography>
-            </Stack>
-            <Stack direction="row" alignItems="center">
-              <SignalCellularAltIcon />
-              <Typography variant="body2" color="text.secondary">
-                {difficulty}
-              </Typography>
-            </Stack>
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h7" component="div">
+          {title}
+        </Typography>
+        <Stack
+          direction="row"
+          justifyContent="space-between"
+          alignItems="center"
+          spacing={2}
+        >
+          <Stack direction="row" alignItems="center">
+            <AccessTimeIcon />
+            <Typography variant="body2" color="text.secondary" marginLeft="2px">
+              {duration}
+            </Typography>
           </Stack>
-        </CardContent>
-      </Card>
-    </Grid>
+          <Stack direction="row" alignItems="center">
+            <SignalCellularAltIcon />
+            <Typography variant="body2" color="text.secondary">
+              {difficulty}
+            </Typography>
+          </Stack>
+        </Stack>
+      </CardContent>
+    </Card>
   );
 };
 

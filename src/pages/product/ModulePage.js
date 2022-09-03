@@ -2,7 +2,7 @@ import { Grid } from "@mui/material";
 import React from "react";
 import ModuleCard from "../../components/cards/ModuleCard";
 import { useSelector } from "react-redux/es/exports";
-import ProductLayout from "./ProductLayout";
+import ProductLayout from "../../layout/ProductLayout";
 
 const ModulePage = () => {
   const moduleList = useSelector((state) => state.moduleSelection.value);
@@ -11,8 +11,8 @@ const ModulePage = () => {
   return (
     <ProductLayout>
       <Grid container>
-        {moduleList.map((moduleCard) => (
-          <Grid item xs="4">
+        {moduleList.map((moduleCard, index) => (
+          <Grid item xs={4} key={index}>
             <ModuleCard
               key={moduleCard.ids[0]}
               title={moduleCard.name}

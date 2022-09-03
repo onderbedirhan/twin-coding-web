@@ -50,23 +50,25 @@ const ExperimentPage = () => {
     }
   };
   return (
-    <Grid container>
+    <>
       <ExperimentAppBar />
       <Grid container>
         {Experiments.map((experimentCard, index) =>
           compareTwoArray(experimentCard.requiredIds) ? (
-            <ExperimentCard
-              index={index}
-              key={experimentCard.id}
-              title={experimentCard.title}
-              imgSrc={experimentCard.imageName}
-              duration={experimentCard.duration}
-              difficulty={selectDifficulty(experimentCard.difficulty)}
-            />
+            <Grid item xs={4} key={index}>
+              <ExperimentCard
+                index={index}
+                key={experimentCard.id}
+                title={experimentCard.title}
+                imgSrc={experimentCard.imageName}
+                duration={experimentCard.duration}
+                difficulty={selectDifficulty(experimentCard.difficulty)}
+              />
+            </Grid>
           ) : null
         )}
       </Grid>
-    </Grid>
+    </>
   );
 };
 

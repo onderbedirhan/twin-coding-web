@@ -1,5 +1,5 @@
 import React from "react";
-import ProductAppBar from "../../layout/appbars/ProductAppBar";
+import ProductAppBar from "./appbars/ProductAppBar";
 
 const ProductLayout = ({ children }) => {
   return (

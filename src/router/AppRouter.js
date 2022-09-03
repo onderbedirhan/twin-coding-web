@@ -4,7 +4,7 @@ import { routes } from "./routeList";
 import KitPage from "../pages/product/KitPage";
 import ModulePage from "../pages/product/ModulePage";
 import ExperimentPage from "../pages/experiment/ExperimentPage";
-import { useDispatch, useSelector } from "react-redux/es/exports";
+import { useDispatch } from "react-redux/es/exports";
 import { updateKitCardList } from "../redux/actions/kitSelection";
 import { updateModuleCardList } from "../redux/actions/moduleSelection";
 import ExperimentDetailPage from "../pages/experiment/ExperimentDetailPage";
@@ -30,6 +30,7 @@ const AppRouter = () => {
       <Routes>
         <Route
           path={routes.HOME_PAGE}
+          // User first login to app shows that kit page another situations shows that experiment page
           element={
             kitData != null || moduleData != null ? (
               <ExperimentPage />

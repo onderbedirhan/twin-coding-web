@@ -9,18 +9,11 @@ const ExperimentDetailAppBar = () => {
   return (
     <AppBar color="inherit" position="fixed" sx={{ mb: 2 }}>
       <Container maxWidth="xl" sx={{ mt: 1, mb: 1 }}>
-        <Stack
-          direction="row"
-          justifyContent="space-between"
-          alignItems="center"
-          spacing={2}
-        >
-          <BackButton
-            onClick={() => {
-              navigate(routes.EXPERIMENT_PAGE);
-            }}
-          />
-        </Stack>
+        <BackButton
+          onClick={() => {
+            navigate(routes.EXPERIMENT_PAGE);
+          }}
+        />
       </Container>
     </AppBar>
   );

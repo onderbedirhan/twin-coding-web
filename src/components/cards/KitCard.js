@@ -5,6 +5,7 @@ import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import { Grid } from "@mui/material";
 import { kitToggle } from "../../redux/actions/kitSelection";
 import { useDispatch } from "react-redux/es/exports";
+import twinColors from "../../assets/colors/colors";
 
 const KitCard = ({ title, imgSrc, checked, id }) => {
   const dispatch = useDispatch();
@@ -36,13 +37,16 @@ const KitCard = ({ title, imgSrc, checked, id }) => {
       />
       <CardContent
         sx={{
-          backgroundColor: checked ? "#00FFDA" : "white",
+          backgroundColor: checked ? twinColors.activeColor : "white",
         }}
       >
         <Grid container justifyContent={"space-between"}>
           <Grid item>{title}</Grid>
           <Grid item>
-            {checked ? <CheckCircleIcon sx={{ color: "white" }} /> : null}
+            <CheckCircleIcon
+              disabled={checked ? false : true}
+              sx={{ color: "white" }}
+            />
           </Grid>
         </Grid>
       </CardContent>

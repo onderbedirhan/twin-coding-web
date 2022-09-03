@@ -1,9 +1,9 @@
 import * as React from "react";
 import { useTheme } from "@mui/material/styles";
 import SwipeableViews from "react-swipeable-views";
-import { Button, Fab, Grid } from "@mui/material";
+import { Grid } from "@mui/material";
 import ReactPlayer from "react-player";
-import PlayCircleIcon from "@mui/icons-material/PlayCircle";
+import CustomSwipeableView from "./CustomSwipeableView";
 
 const ExperimentSlider = ({
   currentExperiment,
@@ -23,25 +23,15 @@ const ExperimentSlider = ({
       container
       sx={{
         width: "100%",
-        height: "100vh",
-        // position: "fixed",
+        height: "90vh",
         alignItems: "center",
         justifyContent: "center",
-        // background: "red",
       }}
     >
-      <SwipeableViews
-        axis={theme.direction === "rtl" ? "x-reverse" : "x"}
-        index={activeStep}
-        onChangeIndex={handleStepChange}
-        enableMouseEvents
-        style={{
-          width: "100%",
-          height: "100vh",
-          alignItems: "center",
-          justifyContent: "center",
-          display: "flex",
-        }}
+      <CustomSwipeableView
+        theme={theme}
+        activeStep={activeStep}
+        handleStepChange={handleStepChange}
       >
         {currentExperiment.tutorials.map((step, index) => (
           <Grid
@@ -59,16 +49,17 @@ const ExperimentSlider = ({
                 direction="row"
                 justifyContent="space-between"
                 alignItems="center"
-                spacing={5}
+                spacing="5px"
+                style={{ padding: "10px" }}
               >
-                <Grid item xs="5">
+                <Grid item xs={5}>
                   <h3>{currentExperiment.tutorials[activeStep].title}</h3>
                   <br />
                   <div style={{ whiteSpace: "pre-line" }}>
                     {currentExperiment.tutorials[activeStep].desc}
                   </div>
                 </Grid>
-                <Grid item xs="7" sx={{ padding: 1 }}>
+                <Grid item xs={7}>
                   {fileExtention === "mp" ? (
                     <div className="player-wrapper">
                       <ReactPlayer
@@ -79,31 +70,23 @@ const ExperimentSlider = ({
                         width="80%"
                         height="80%"
                         controls
-                        // playing
-                        // playIcon={
-                        //   <Fab>
-                        //     <PlayCircleIcon />
-                        //   </Fab>
-                        // }
                       />
                     </div>
                   ) : (
-                    <div>
-                      <img
-                        className="experiment-image"
-                        alt={currentExperiment.tutorials[activeStep].media}
-                        // className="react-player"
-                        src={currentExperiment.tutorials[activeStep].media}
-                        style={{ width: "80%", height: "80%" }}
-                      />
-                    </div>
+                    <img
+                      className="experiment-image"
+                      alt={currentExperiment.tutorials[activeStep].media}
+                      // className="react-player"
+                      src={currentExperiment.tutorials[activeStep].media}
+                      style={{ width: "80%", height: "80%" }}
+                    />
                   )}
                 </Grid>
               </Grid>
             ) : null}
           </Grid>
         ))}
-      </SwipeableViews>
+      </CustomSwipeableView>
     </Grid>
   );
 };
