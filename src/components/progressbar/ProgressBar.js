@@ -65,14 +65,10 @@ const ProgressBar = ({ activeStep, maxSteps, handleBack, handleNext }) => {
             </Fab>
           </>
         ) : (
-          <Fab
-            variant="extended"
-            size="small"
+          <NavigatorButton
             buttonText="Finish"
             onClick={() => navigate(routes.EXPERIMENT_PAGE)}
-          >
-            Finish
-          </Fab>
+          />
         )}
       </Grid>
     </Grid>

@@ -1,6 +1,5 @@
 import * as React from "react";
 import { useTheme } from "@mui/material/styles";
-import SwipeableViews from "react-swipeable-views";
 import { Grid } from "@mui/material";
 import ReactPlayer from "react-player";
 import CustomSwipeableView from "./CustomSwipeableView";
@@ -13,11 +12,11 @@ const ExperimentSlider = ({
 }) => {
   const theme = useTheme();
 
-  let fileExtention = currentExperiment.tutorials[activeStep].media.slice(
-    -3,
-    -1
-  );
-
+  let fileExtention =
+    activeStep !== 0
+      ? currentExperiment.tutorials[activeStep - 1].media.slice(-3, -1)
+      : null;
+  console.log(activeStep);
   return (
     <Grid
       container
@@ -33,7 +32,7 @@ const ExperimentSlider = ({
         activeStep={activeStep}
         handleStepChange={handleStepChange}
       >
-        {currentExperiment.tutorials.map((step, index) => (
+        {[...Array(maxSteps)].map((step, index) => (
           <Grid
             key={index}
             container
@@ -53,20 +52,52 @@ const ExperimentSlider = ({
                 style={{ padding: "10px" }}
               >
                 <Grid item xs={5}>
-                  <h3>{currentExperiment.tutorials[activeStep].title}</h3>
-                  <br />
-                  <div style={{ whiteSpace: "pre-line" }}>
-                    {currentExperiment.tutorials[activeStep].desc}
-                  </div>
+                  {activeStep === 0 ? (
+                    <>
+                      <img
+                        className="experiment-image"
+                        alt={currentExperiment.chartImage}
+                        // className="react-player"
+                        src={currentExperiment.chartImage}
+                        style={{ width: "80%", height: "80%" }}
+                      />
+                    </>
+                  ) : (
+                    <>
+                      <h3>
+                        {currentExperiment.tutorials[activeStep - 1].title}
+                      </h3>
+                      <br />
+                      <div style={{ whiteSpace: "pre-line" }}>
+                        {currentExperiment.tutorials[activeStep - 1].desc}
+                      </div>
+                    </>
+                  )}
                 </Grid>
                 <Grid item xs={7}>
-                  {fileExtention === "mp" ? (
+                  {activeStep === 0 ? (
+                    <>
+                      <div className="player-wrapper">
+                        <ReactPlayer
+                          className="react-player"
+                          // This code provide a automatic thumbnail for react-player
+                          // Starts a accurate time of the video so that this shows a like thumbail
+                          url={`${currentExperiment.media}#t=0.5`}
+                          width="80%"
+                          height="80%"
+                          controls
+                        />
+                      </div>
+                    </>
+                  ) : fileExtention === "mp" ? (
                     <div className="player-wrapper">
                       <ReactPlayer
                         className="react-player"
                         // This code provide a automatic thumbnail for react-player
                         // Starts a accurate time of the video so that this shows a like thumbail
-                        url={`${currentExperiment.tutorials[activeStep].media}#t=0.5`}
+                        url={`${
+                          currentExperiment.tutorials[activeStep - 1].media
+                        }#t=0.5`}
                         width="80%"
                         height="80%"
                         controls
@@ -75,9 +106,9 @@ const ExperimentSlider = ({
                   ) : (
                     <img
                       className="experiment-image"
-                      alt={currentExperiment.tutorials[activeStep].media}
+                      alt={currentExperiment.tutorials[activeStep - 1].media}
                       // className="react-player"
-                      src={currentExperiment.tutorials[activeStep].media}
+                      src={currentExperiment.tutorials[activeStep - 1].media}
                       style={{ width: "80%", height: "80%" }}
                     />
                   )}

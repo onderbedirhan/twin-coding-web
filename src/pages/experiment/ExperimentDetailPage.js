@@ -9,7 +9,7 @@ const ExperimentDetailPage = () => {
     (state) => state.experimentSelection.value
   );
 
-  const maxSteps = currentExperiment.tutorials.length;
+  const maxSteps = currentExperiment.tutorials.length + 1;
 
   const [activeStep, setActiveStep] = React.useState(0);
 
