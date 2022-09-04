@@ -1,22 +1,26 @@
 import * as React from "react";
 import { useTheme } from "@mui/material/styles";
 import { Grid } from "@mui/material";
-import ReactPlayer from "react-player";
 import CustomSwipeableView from "./CustomSwipeableView";
+import ExperimentDetailImage from "../images/ExperimentDetailImage";
+import ExperimentVideoPlayer from "../videoplayer/ExperimentVideoPlayer";
 
 const ExperimentSlider = ({
   currentExperiment,
   maxSteps,
   activeStep,
   handleStepChange,
+  extraPageNumber,
 }) => {
   const theme = useTheme();
 
   let fileExtention =
     activeStep !== 0
-      ? currentExperiment.tutorials[activeStep - 1].media.slice(-3, -1)
+      ? currentExperiment.tutorials[activeStep - extraPageNumber].media.slice(
+          -3,
+          -1
+        )
       : null;
-  console.log(activeStep);
   return (
     <Grid
       container
@@ -53,63 +57,45 @@ const ExperimentSlider = ({
               >
                 <Grid item xs={5}>
                   {activeStep === 0 ? (
-                    <>
-                      <img
-                        className="experiment-image"
-                        alt={currentExperiment.chartImage}
-                        // className="react-player"
-                        src={currentExperiment.chartImage}
-                        style={{ width: "80%", height: "80%" }}
-                      />
-                    </>
+                    <ExperimentDetailImage src={currentExperiment.chartImage} />
                   ) : (
                     <>
                       <h3>
-                        {currentExperiment.tutorials[activeStep - 1].title}
+                        {
+                          currentExperiment.tutorials[
+                            activeStep - extraPageNumber
+                          ].title
+                        }
                       </h3>
                       <br />
                       <div style={{ whiteSpace: "pre-line" }}>
-                        {currentExperiment.tutorials[activeStep - 1].desc}
+                        {
+                          currentExperiment.tutorials[
+                            activeStep - extraPageNumber
+                          ].desc
+                        }
                       </div>
                     </>
                   )}
                 </Grid>
                 <Grid item xs={7}>
                   {activeStep === 0 ? (
-                    <>
-                      <div className="player-wrapper">
-                        <ReactPlayer
-                          className="react-player"
-                          // This code provide a automatic thumbnail for react-player
-                          // Starts a accurate time of the video so that this shows a like thumbail
-                          url={`${currentExperiment.media}#t=0.5`}
-                          width="80%"
-                          height="80%"
-                          controls
-                        />
-                      </div>
-                    </>
+                    <ExperimentVideoPlayer url={currentExperiment.media} />
                   ) : fileExtention === "mp" ? (
-                    <div className="player-wrapper">
-                      <ReactPlayer
-                        className="react-player"
-                        // This code provide a automatic thumbnail for react-player
-                        // Starts a accurate time of the video so that this shows a like thumbail
-                        url={`${
-                          currentExperiment.tutorials[activeStep - 1].media
-                        }#t=0.5`}
-                        width="80%"
-                        height="80%"
-                        controls
-                      />
-                    </div>
+                    <ExperimentVideoPlayer
+                      url={
+                        currentExperiment.tutorials[
+                          activeStep - extraPageNumber
+                        ].media
+                      }
+                    />
                   ) : (
-                    <img
-                      className="experiment-image"
-                      alt={currentExperiment.tutorials[activeStep - 1].media}
-                      // className="react-player"
-                      src={currentExperiment.tutorials[activeStep - 1].media}
-                      style={{ width: "80%", height: "80%" }}
+                    <ExperimentDetailImage
+                      src={
+                        currentExperiment.tutorials[
+                          activeStep - extraPageNumber
+                        ].media
+                      }
                     />
                   )}
                 </Grid>

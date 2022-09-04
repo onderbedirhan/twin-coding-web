@@ -5,11 +5,13 @@ import { useSelector } from "react-redux/es/exports";
 import ProgressBar from "../../components/progressbar/ProgressBar";
 
 const ExperimentDetailPage = () => {
+  const extraPageNumber = 1;
+
   const currentExperiment = useSelector(
     (state) => state.experimentSelection.value
   );
 
-  const maxSteps = currentExperiment.tutorials.length + 1;
+  const maxSteps = currentExperiment.tutorials.length + extraPageNumber;
 
   const [activeStep, setActiveStep] = React.useState(0);
 
@@ -33,6 +35,7 @@ const ExperimentDetailPage = () => {
         maxSteps={maxSteps}
         activeStep={activeStep}
         handleStepChange={handleStepChange}
+        extraPageNumber={extraPageNumber}
       />
       <ProgressBar
         activeStep={activeStep}

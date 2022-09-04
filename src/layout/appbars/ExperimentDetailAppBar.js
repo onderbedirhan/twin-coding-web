@@ -1,5 +1,5 @@
 import React from "react";
-import { AppBar, Container, Stack } from "@mui/material";
+import { AppBar, Container } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import { routes } from "../../router/routeList";
 import BackButton from "../../components/buttons/BackButton";
